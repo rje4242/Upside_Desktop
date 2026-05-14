@@ -34,11 +34,6 @@ continue_sim     = False  # when you run a new simulation, set it as "False"
 randomseed       =  np.random.randint(0,100000)
                          # Might want to change the fixed seed for the random number
 
-account          = "pi-depablo"    # FIXME change it 
-partition        = "depablo-tc"  # FIXME change it
-job_name         = '{}_{}'.format(pdb_id, sim_id)
-run_time         = "24:00:00" # requested run time of job allocation in hh:mm:ss
-qos              = 'depablo-tc-sn'
 
 #----------------------------------------------------------------------
 ## Initialization
@@ -218,22 +213,7 @@ else:
     shutil.copyfile(config_base, h5_file)
 
 
-# SLURM options
-# Will want to increase the time for production runs 
-sbatch_opts = (
-                "--account={} " #bphs35001
-                "--job-name={} "
-                "--output={} "
-                "--time={} "
-                "--partition={} "
-                "--nodes=1 "
-                "--ntasks-per-node=1 "
-                "--qos={}"
-              )
-sbatch_opts = sbatch_opts.format(account, job_name, log_file, run_time, partition, qos)
-
-
 print ("Running...")
-cmd = "sbatch {} --wrap=\"{}/obj/upside {} {}\"".format(sbatch_opts, upside_path, upside_opts, h5_file)
-#cmd = "{}/obj/upside {} {}".format(upside_path, upside_opts, h5_file)
+cmd = "\"{}/obj/upside\" {} {}".format(upside_path, upside_opts, h5_file)
+print (cmd)
 sp.check_call(cmd, shell=True)

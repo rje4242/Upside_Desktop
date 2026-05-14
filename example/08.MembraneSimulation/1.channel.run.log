@@ -1,0 +1,61 @@
+invocation: /home/rob/github/upside2-md/obj/upside --duration 5000 --frame-interval 50 --temperature 0.7999999999999999,0.7999999999999999,0.7999999999999999,0.7999999999999999,0.7999999999999999,0.7999999999999999,0.7999999999999999,0.7999999999999999 --seed 1 --disable-z-recentering .//outputs/channel_test/1qhj.run.0.up .//outputs/channel_test/1qhj.run.1.up .//outputs/channel_test/1qhj.run.2.up .//outputs/channel_test/1qhj.run.3.up .//outputs/channel_test/1qhj.run.4.up .//outputs/channel_test/1qhj.run.5.up .//outputs/channel_test/1qhj.run.6.up .//outputs/channel_test/1qhj.run.7.up
+random seed: 1
+.//outputs/channel_test/1qhj.run.0.up
+n_atom 684
+
+.//outputs/channel_test/1qhj.run.1.up
+n_atom 684
+
+.//outputs/channel_test/1qhj.run.2.up
+n_atom 684
+
+.//outputs/channel_test/1qhj.run.3.up
+n_atom 684
+
+.//outputs/channel_test/1qhj.run.4.up
+n_atom 684
+
+.//outputs/channel_test/1qhj.run.5.up
+n_atom 684
+
+.//outputs/channel_test/1qhj.run.6.up
+n_atom 684
+
+.//outputs/channel_test/1qhj.run.7.up
+n_atom 684
+
+
+0 0.80
+1 0.80
+2 0.80
+3 0.80
+4 0.80
+5 0.80
+6 0.80
+7 0.80
+
+Initial potential energy: -587.73 -587.73 -587.73 -587.73 -587.73 -587.73 -587.73 -587.73
+   0 / 5000 elapsed  4 system 0.80 temp 241.7 hbonds, Rg  17.8 A, potential  -587.73
+   0 / 5000 elapsed  0 system 0.80 temp 241.7 hbonds, Rg  17.8 A, potential  -587.73
+   0 / 5000 elapsed  7 system 0.80 temp 241.7 hbonds, Rg  17.8 A, potential  -587.73
+   0 / 5000 elapsed  3 system 0.80 temp 241.7 hbonds, Rg  17.8 A, potential  -587.73
+   0 / 5000 elapsed  2 system 0.80 temp 241.7 hbonds, Rg  17.8 A, potential  -587.73
+   0 / 5000 elapsed  1 system 0.80 temp 241.7 hbonds, Rg  17.8 A, potential  -587.73
+   0 / 5000 elapsed  5 system 0.80 temp 241.7 hbonds, Rg  17.8 A, potential  -587.73
+   0 / 5000 elapsed  6 system 0.80 temp 241.7 hbonds, Rg  17.8 A, potential  -587.73
+  50 / 5000 elapsed  0 system 0.80 temp 286.6 hbonds, Rg  18.1 A, potential  -526.66
+  50 / 5000 elapsed  6 system 0.80 temp 289.1 hbonds, Rg  17.9 A, potential  -509.33
+  50 / 5000 elapsed  2 system 0.80 temp 279.9 hbonds, Rg  17.7 A, potential  -595.44
+  50 / 5000 elapsed  5 system 0.80 temp 288.4 hbonds, Rg  18.1 A, potential  -536.88
+  50 / 5000 elapsed  7 system 0.80 temp 289.3 hbonds, Rg  17.9 A, potential  -567.15
+  50 / 5000 elapsed  1 system 0.80 temp 287.4 hbonds, Rg  17.9 A, potential  -608.85
+  50 / 5000 elapsed  4 system 0.80 temp 294.5 hbonds, Rg  17.9 A, potential  -587.74
+  50 / 5000 elapsed  3 system 0.80 temp 294.0 hbonds, Rg  17.7 A, potential  -593.44
+ 100 / 5000 elapsed  0 system 0.80 temp 290.9 hbonds, Rg  18.0 A, potential  -553.35
+ 100 / 5000 elapsed  6 system 0.80 temp 292.4 hbonds, Rg  17.9 A, potential  -518.63
+ 100 / 5000 elapsed  4 system 0.80 temp 293.4 hbonds, Rg  17.9 A, potential  -594.84
+ 100 / 5000 elapsed  2 system 0.80 temp 287.6 hbonds, Rg  18.0 A, potential  -565.85
+ 100 / 5000 elapsed  1 system 0.80 temp 282.1 hbonds, Rg  18.0 A, potential  -554.10
+ 100 / 5000 elapsed  5 system 0.80 temp 283.6 hbonds, Rg  18.2 A, potential  -515.80
+ 100 / 5000 elapsed  7 system 0.80 temp 281.3 hbonds, Rg  17.8 A, potential  -557.93
+ 100 / 5000 elapsed  3 system 0.80 temp 288.8 hbonds, Rg  17.8 A, potential  -579.44

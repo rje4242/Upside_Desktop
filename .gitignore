@@ -25,3 +25,5 @@ source.sh
 **inputs/
 **outputs/
 .vscode/*
+.venv/
+obj/

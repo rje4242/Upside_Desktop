@@ -2,10 +2,26 @@ import sys, os, shutil
 import subprocess as sp
 import numpy as np
 
+import argparse
+
 upside_path = os.environ['UPSIDE_HOME']
 upside_utils_dir = os.path.expanduser(upside_path+"/py")
 sys.path.insert(0, upside_utils_dir)
 import run_upside as ru
+
+#----------------------------------------------------------------------
+## SLURM Settings
+#----------------------------------------------------------------------
+
+parser = argparse.ArgumentParser(description='Run upside simulation via SLURM')
+parser.add_argument('--account',   required=True,      help='SLURM account name')
+parser.add_argument('--partition', required=True,      help='SLURM partition name')
+parser.add_argument('--time',      default='36:00:00', help='Job time limit (hh:mm:ss)')
+args = parser.parse_args()
+
+account   = args.account
+partition = args.partition
+run_time  = args.time
 
 #----------------------------------------------------------------------
 ## General Settings and Path
@@ -36,7 +52,7 @@ randomseed       = 1     # np.random.randint(0,100000)
 
 input_dir  = "{}/inputs".format(base_dir)
 output_dir = "{}/outputs".format(base_dir)
-run_dir    = "{}/{}".format(output_dir, sim_id) 
+run_dir    = "{}/{}".format(output_dir, sim_id)
 
 make_dirs = [input_dir, output_dir, run_dir]
 for direc in make_dirs:
@@ -44,7 +60,7 @@ for direc in make_dirs:
         os.makedirs(direc)
 
 #----------------------------------------------------------------------
-## Generate Upside readable initial structure (and fasta) from PDB 
+## Generate Upside readable initial structure (and fasta) from PDB
 #----------------------------------------------------------------------
 
 # we turn off this step, just use .fasta file to make the config file
@@ -57,7 +73,6 @@ for direc in make_dirs:
 #      ).format(upside_utils_dir, pdb_dir, pdb_id, input_dir )
 #print (cmd)
 #sp.check_output(cmd.split())
-
 
 #----------------------------------------------------------------------
 ## Configure
@@ -98,7 +113,6 @@ print (config_stdout)
 ## Run Settings
 #----------------------------------------------------------------------
 
-
 randomseed = np.random.randint(0,100000) # Might want to change the fixed seed for the random number
 randomseed = 1
 
@@ -114,7 +128,20 @@ h5_file  = "{}/{}.run.up".format(run_dir, pdb_id)
 log_file = "{}/{}.run.log".format(run_dir, pdb_id)
 shutil.copyfile(config_base, h5_file)
 
+job_name = '{}_{}'.format(pdb_id, sim_id)
+
 print ("Running...")
-cmd = "\"{}/obj/upside\" {} {}".format(upside_path, upside_opts, h5_file)
+sbatch_opts = (
+                "--account={} "
+                "--job-name={} "
+                "--output={} "
+                "--time={} "
+                "--partition={} "
+                "--nodes=1 "
+                "--ntasks-per-node={} "
+                "--mem=8000"
+              )
+sbatch_opts = sbatch_opts.format(account, job_name, log_file, run_time, partition, n_rep)
+cmd = "sbatch {} --wrap=\"{}/obj/upside {} {}\"".format(sbatch_opts, upside_path, upside_opts, h5_file)
 print (cmd)
 sp.check_call(cmd, shell=True)

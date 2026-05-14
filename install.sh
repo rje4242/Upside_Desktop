@@ -1,14 +1,18 @@
 #!/bin/bash
 
-echo `pwd`
-upside_path=$(pwd |sed -e 's/\//\\\//g')
-cp source_sh source.sh
-sed -i "s/UP_PATH/$upside_path/g" source.sh
+UPSIDE_HOME=$(pwd)
+
+cat > source.sh << EOF
+export UPSIDE_HOME=$UPSIDE_HOME
+source \$UPSIDE_HOME/.venv/bin/activate
+export PATH=\$UPSIDE_HOME/obj:\$PATH
+export PYTHONPATH=\$UPSIDE_HOME/py:\$PYTHONPATH
+EOF
 
 source source.sh
 
 rm -rf obj/*
 cd obj
 
-cmake ../src/  -DEIGEN3_INCLUDE_DIR=$EIGEN_HOME
+cmake ../src/
 make

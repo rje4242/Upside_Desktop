@@ -1,0 +1,31 @@
+invocation: /home/rob/github/upside2-md/obj/upside --duration 10000 --frame-interval 50 --temperature 0.8 --seed 1 .//outputs/trans_cis/2qke_mon.run.up
+random seed: 1
+.//outputs/trans_cis/2qke_mon.run.up
+n_atom 324
+
+
+0 0.80
+
+Initial potential energy: 59.10
+    0 / 10000 elapsed  0 system 0.80 temp  65.8 hbonds, Rg  13.5 A, potential    59.10
+   50 / 10000 elapsed  0 system 0.80 temp  87.7 hbonds, Rg  13.4 A, potential   -68.61
+  100 / 10000 elapsed  0 system 0.80 temp  89.6 hbonds, Rg  13.9 A, potential   -87.20
+  150 / 10000 elapsed  0 system 0.80 temp  90.7 hbonds, Rg  13.7 A, potential  -117.91
+  200 / 10000 elapsed  0 system 0.80 temp  91.2 hbonds, Rg  14.2 A, potential  -103.80
+  250 / 10000 elapsed  0 system 0.80 temp  84.6 hbonds, Rg  13.9 A, potential  -122.72
+  300 / 10000 elapsed  0 system 0.80 temp  87.8 hbonds, Rg  13.4 A, potential  -110.51
+  350 / 10000 elapsed  0 system 0.80 temp  87.2 hbonds, Rg  13.4 A, potential   -89.02
+  400 / 10000 elapsed  0 system 0.80 temp  90.2 hbonds, Rg  13.2 A, potential   -91.83
+  450 / 10000 elapsed  0 system 0.80 temp  92.0 hbonds, Rg  13.4 A, potential  -115.02
+  500 / 10000 elapsed  0 system 0.80 temp  89.6 hbonds, Rg  13.3 A, potential   -99.07
+  550 / 10000 elapsed  0 system 0.80 temp  89.6 hbonds, Rg  13.3 A, potential  -118.29
+  600 / 10000 elapsed  0 system 0.80 temp  86.1 hbonds, Rg  13.3 A, potential  -104.81
+  650 / 10000 elapsed  0 system 0.80 temp  93.9 hbonds, Rg  13.4 A, potential  -112.84
+  700 / 10000 elapsed  0 system 0.80 temp  95.1 hbonds, Rg  13.0 A, potential  -146.27
+  750 / 10000 elapsed  0 system 0.80 temp  88.6 hbonds, Rg  12.9 A, potential  -104.07
+  800 / 10000 elapsed  0 system 0.80 temp  93.6 hbonds, Rg  13.3 A, potential  -125.09
+  850 / 10000 elapsed  0 system 0.80 temp  96.4 hbonds, Rg  13.0 A, potential  -126.45
+  900 / 10000 elapsed  0 system 0.80 temp  93.1 hbonds, Rg  13.0 A, potential  -111.23
+  950 / 10000 elapsed  0 system 0.80 temp  92.4 hbonds, Rg  13.4 A, potential  -124.37
+ 1000 / 10000 elapsed  0 system 0.80 temp  89.9 hbonds, Rg  13.2 A, potential  -146.82
+ 1050 / 10000 elapsed  0 system 0.80 temp  88.8 hbonds, Rg  12.8 A, potential  -130.81

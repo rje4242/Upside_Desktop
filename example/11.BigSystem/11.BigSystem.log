@@ -1,0 +1,10 @@
+invocation: /home/rob/github/upside2-md/obj/upside --duration 100 --frame-interval 10 --temperature 0.8 --seed 1 .//outputs/mem_test/S10000.run.up
+random seed: 1
+.//outputs/mem_test/S10000.run.up
+n_atom 30000
+
+
+0 0.80
+
+Initial potential energy: 244248.78
+  0 / 100 elapsed  0 system 0.80 temp 163.5 hbonds, Rg 177.9 A, potential  244248.86

@@ -1,0 +1,49 @@
+invocation: /home/rob/github/upside2-md/obj/upside --duration 1000 --frame-interval 50 --temperature 0.8 --seed 1 --disable-recentering .//outputs/simple_test/1UBQ.run.up
+random seed: 1
+.//outputs/simple_test/1UBQ.run.up
+n_atom 228
+
+
+0 0.80
+
+Initial potential energy: 4537.60
+   0 / 1000 elapsed  0 system 0.80 temp  58.2 hbonds, Rg  11.4 A, potential  4537.60
+  50 / 1000 elapsed  0 system 0.80 temp  31.6 hbonds, Rg  16.0 A, potential    34.73
+ 100 / 1000 elapsed  0 system 0.80 temp  30.5 hbonds, Rg  16.4 A, potential    24.53
+ 150 / 1000 elapsed  0 system 0.80 temp  31.0 hbonds, Rg  16.7 A, potential     0.21
+ 200 / 1000 elapsed  0 system 0.80 temp  36.4 hbonds, Rg  15.8 A, potential   -17.08
+ 250 / 1000 elapsed  0 system 0.80 temp  40.5 hbonds, Rg  15.8 A, potential   -22.83
+ 300 / 1000 elapsed  0 system 0.80 temp  30.2 hbonds, Rg  16.5 A, potential   -32.63
+ 350 / 1000 elapsed  0 system 0.80 temp  36.8 hbonds, Rg  16.0 A, potential   -11.12
+ 400 / 1000 elapsed  0 system 0.80 temp  35.0 hbonds, Rg  16.8 A, potential    -9.45
+ 450 / 1000 elapsed  0 system 0.80 temp  39.5 hbonds, Rg  16.5 A, potential   -45.28
+ 500 / 1000 elapsed  0 system 0.80 temp  36.6 hbonds, Rg  16.7 A, potential     4.05
+ 550 / 1000 elapsed  0 system 0.80 temp  36.4 hbonds, Rg  18.1 A, potential    -8.14
+ 600 / 1000 elapsed  0 system 0.80 temp  39.4 hbonds, Rg  18.9 A, potential   -37.54
+ 650 / 1000 elapsed  0 system 0.80 temp  39.7 hbonds, Rg  18.8 A, potential   -22.20
+ 700 / 1000 elapsed  0 system 0.80 temp  36.3 hbonds, Rg  18.0 A, potential     0.53
+ 750 / 1000 elapsed  0 system 0.80 temp  42.4 hbonds, Rg  17.8 A, potential   -10.77
+ 800 / 1000 elapsed  0 system 0.80 temp  41.9 hbonds, Rg  17.3 A, potential   -32.25
+ 850 / 1000 elapsed  0 system 0.80 temp  39.9 hbonds, Rg  17.7 A, potential   -38.94
+ 900 / 1000 elapsed  0 system 0.80 temp  35.4 hbonds, Rg  17.7 A, potential     2.70
+ 950 / 1000 elapsed  0 system 0.80 temp  39.8 hbonds, Rg  17.9 A, potential   -25.44
+
+
+finished in 44.1 seconds (397.05 us/systems/step, 8.2e+04 simulation_time_unit/hour)
+
+avg_kinetic_energy/1.5kT  1.019
+Initial structure gen...
+python /home/rob/github/upside2-md/py/PDB_to_initial_structure.py ./pdb/1UBQ.pdb .//inputs/1UBQ --record-chain-breaks --disable-recentering 
+Configuring...
+Config commandline options:
+/home/rob/github/upside2-md/py/upside_config.py --fasta=.//inputs/1UBQ.fasta --output=.//inputs/1UBQ.up --initial-structure=.//inputs/1UBQ.initial.npy --rama-library=/home/rob/github/upside2-md/parameters/common/rama.dat --rama-sheet-mixing-energy=/home/rob/github/upside2-md/parameters/ff_2.1/sheet --hbond-energy=/home/rob/github/upside2-md/parameters/ff_2.1/hbond.h5 --reference-state-rama=/home/rob/github/upside2-md/parameters/common/rama_reference.pkl --rotamer-placement=/home/rob/github/upside2-md/parameters/ff_2.1/sidechain.h5 --dynamic-rotamer-1body --rotamer-interaction=/home/rob/github/upside2-md/parameters/ff_2.1/sidechain.h5 --environment-potential=/home/rob/github/upside2-md/parameters/ff_2.1/environment.h5 --bb-environment-potential=/home/rob/github/upside2-md/parameters/ff_2.1/bb_env.dat --chain-break-from-file=.//inputs/1UBQ.chain_breaks
+
+n_chains: 1
+
+hbond, 72 donors, 75 acceptors in sequence
+
+
+Advanced Config commandline options:
+/home/rob/github/upside2-md/py/advanced_config.py --config=.//inputs/1UBQ.up --fixed-wall=wall-const-xyz.dat
+
+Running...

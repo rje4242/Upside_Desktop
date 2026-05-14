@@ -1,0 +1,55 @@
+invocation: /home/rob/github/upside2-md/obj/upside --duration 1000 --frame-interval 50 --temperature 0.8 --seed 1 .//outputs/simple_test/chig.run.up
+random seed: 1
+.//outputs/simple_test/chig.run.up
+n_atom 30
+
+
+0 0.80
+
+Initial potential energy: 6.05
+   0 / 1000 elapsed  0 system 0.80 temp   2.5 hbonds, Rg   4.5 A, potential     6.05
+  50 / 1000 elapsed  0 system 0.80 temp   5.7 hbonds, Rg   4.6 A, potential     5.35
+ 100 / 1000 elapsed  0 system 0.80 temp   6.4 hbonds, Rg   4.5 A, potential     9.49
+ 150 / 1000 elapsed  0 system 0.80 temp   5.5 hbonds, Rg   4.7 A, potential    13.59
+ 200 / 1000 elapsed  0 system 0.80 temp   5.5 hbonds, Rg   4.5 A, potential     7.69
+ 250 / 1000 elapsed  0 system 0.80 temp   6.5 hbonds, Rg   4.5 A, potential     7.98
+ 300 / 1000 elapsed  0 system 0.80 temp   5.7 hbonds, Rg   4.6 A, potential     7.28
+ 350 / 1000 elapsed  0 system 0.80 temp   5.6 hbonds, Rg   4.6 A, potential    11.78
+ 400 / 1000 elapsed  0 system 0.80 temp   5.9 hbonds, Rg   4.6 A, potential     9.48
+ 450 / 1000 elapsed  0 system 0.80 temp   5.5 hbonds, Rg   4.6 A, potential     3.81
+ 500 / 1000 elapsed  0 system 0.80 temp   6.1 hbonds, Rg   4.6 A, potential    -2.36
+ 550 / 1000 elapsed  0 system 0.80 temp   3.8 hbonds, Rg   4.5 A, potential    12.99
+ 600 / 1000 elapsed  0 system 0.80 temp   6.2 hbonds, Rg   4.5 A, potential    10.15
+ 650 / 1000 elapsed  0 system 0.80 temp   5.4 hbonds, Rg   4.5 A, potential    14.12
+ 700 / 1000 elapsed  0 system 0.80 temp   5.7 hbonds, Rg   4.5 A, potential     2.11
+ 750 / 1000 elapsed  0 system 0.80 temp   5.7 hbonds, Rg   4.4 A, potential     5.84
+ 800 / 1000 elapsed  0 system 0.80 temp   4.6 hbonds, Rg   4.6 A, potential     1.00
+ 850 / 1000 elapsed  0 system 0.80 temp   5.2 hbonds, Rg   4.4 A, potential     6.85
+ 900 / 1000 elapsed  0 system 0.80 temp   4.8 hbonds, Rg   4.6 A, potential     5.30
+ 950 / 1000 elapsed  0 system 0.80 temp   5.3 hbonds, Rg   4.5 A, potential     3.04
+
+
+finished in 4.0 seconds (36.21 us/systems/step, 8.9e+05 simulation_time_unit/hour)
+
+avg_kinetic_energy/1.5kT  0.922
+Initial structure gen...
+python /home/rob/github/upside2-md/py/PDB_to_initial_structure.py ./pdb/chig.pdb .//inputs/chig --record-chain-breaks 
+Configuring...
+Config commandline options:
+/home/rob/github/upside2-md/py/upside_config.py --fasta=.//inputs/chig.fasta --output=.//inputs/chig.up --initial-structure=.//inputs/chig.initial.npy --rama-library=/home/rob/github/upside2-md/parameters/common/rama.dat --rama-sheet-mixing-energy=/home/rob/github/upside2-md/parameters/ff_2.1/sheet --hbond-energy=/home/rob/github/upside2-md/parameters/ff_2.1/hbond.h5 --reference-state-rama=/home/rob/github/upside2-md/parameters/common/rama_reference.pkl --rotamer-placement=/home/rob/github/upside2-md/parameters/ff_2.1/sidechain.h5 --dynamic-rotamer-1body --rotamer-interaction=/home/rob/github/upside2-md/parameters/ff_2.1/sidechain.h5 --environment-potential=/home/rob/github/upside2-md/parameters/ff_2.1/environment.h5 --bb-environment-potential=/home/rob/github/upside2-md/parameters/ff_2.1/bb_env.dat --chain-break-from-file=.//inputs/chig.chain_breaks
+
+n_chains: 1
+
+hbond, 8 donors, 9 acceptors in sequence
+
+
+Advanced Config commandline options:
+/home/rob/github/upside2-md/py/advanced_config.py --config=.//inputs/chig.up --restraint-group=0-9 --restraint-spring-constant=2.000000
+
+Restraint groups (uppercase letters are restrained residues)
+
+Restraint spring constant: 2.0
+group_0:  GYDPETGTWG
+0 [0 1 2 3 4 5 6 7 8 9]
+
+Running...

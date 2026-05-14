@@ -1,0 +1,246 @@
+invocation: /home/rob/github/upside2-md/obj/upside --duration 100001 --frame-interval 100 --temperature 0.7999999999999999,0.7999999999999999,0.7999999999999999,0.7999999999999999 --seed -1 --disable-recentering --integrator mv --curvature-changer-interval 10 .//outputs/curv_dy1/three_1rkl_a.run.0.up .//outputs/curv_dy1/three_1rkl_a.run.1.up .//outputs/curv_dy1/three_1rkl_a.run.2.up .//outputs/curv_dy1/three_1rkl_a.run.3.up
+random seed: 24
+
+Using the multi-step integrator
+slow motion
+  time step: 0.027
+  potential terms:
+    backbone_pairs
+    hbond_energy
+    rotamer
+    sigmoid_coupling_environment
+    bb_sigmoid_coupling_environment
+
+fast motion
+  time step: 0.009
+  potential terms:
+    Spring_angle
+    Spring_bond
+    Spring_omega
+    Spring_nail
+    rama_map_pot
+    rama_map_pot_ref
+    hb_membrane_potential
+    cb_membrane_potential
+
+.//outputs/curv_dy1/three_1rkl_a.run.0.up
+n_atom 279
+
+
+Using the multi-step integrator
+slow motion
+  time step: 0.027
+  potential terms:
+    backbone_pairs
+    hbond_energy
+    rotamer
+    sigmoid_coupling_environment
+    bb_sigmoid_coupling_environment
+
+fast motion
+  time step: 0.009
+  potential terms:
+    Spring_angle
+    Spring_bond
+    Spring_omega
+    Spring_nail
+    rama_map_pot
+    rama_map_pot_ref
+    hb_membrane_potential
+    cb_membrane_potential
+
+.//outputs/curv_dy1/three_1rkl_a.run.1.up
+n_atom 279
+
+
+Using the multi-step integrator
+slow motion
+  time step: 0.027
+  potential terms:
+    backbone_pairs
+    hbond_energy
+    rotamer
+    sigmoid_coupling_environment
+    bb_sigmoid_coupling_environment
+
+fast motion
+  time step: 0.009
+  potential terms:
+    Spring_angle
+    Spring_bond
+    Spring_omega
+    Spring_nail
+    rama_map_pot
+    rama_map_pot_ref
+    hb_membrane_potential
+    cb_membrane_potential
+
+.//outputs/curv_dy1/three_1rkl_a.run.2.up
+n_atom 279
+
+
+Using the multi-step integrator
+slow motion
+  time step: 0.027
+  potential terms:
+    backbone_pairs
+    hbond_energy
+    rotamer
+    sigmoid_coupling_environment
+    bb_sigmoid_coupling_environment
+
+fast motion
+  time step: 0.009
+  potential terms:
+    Spring_angle
+    Spring_bond
+    Spring_omega
+    Spring_nail
+    rama_map_pot
+    rama_map_pot_ref
+    hb_membrane_potential
+    cb_membrane_potential
+
+.//outputs/curv_dy1/three_1rkl_a.run.3.up
+n_atom 279
+
+initializing curvature changer
+
+0 0.80
+1 0.80
+2 0.80
+3 0.80
+
+Initial potential energy: 719.29 719.29 719.29 719.29
+     0 / 100001 elapsed  0 system 0.80 temp  13.4 hbonds, Rg  66.5 A, potential   719.29
+     0 / 100001 elapsed  2 system 0.80 temp  13.4 hbonds, Rg  66.5 A, potential   719.29
+     0 / 100001 elapsed  1 system 0.80 temp  13.4 hbonds, Rg  66.5 A, potential   719.29
+     0 / 100001 elapsed  3 system 0.80 temp  13.4 hbonds, Rg  66.5 A, potential   719.29
+   100 / 100001 elapsed  3 system 0.80 temp 103.9 hbonds, Rg  66.6 A, potential    62.65
+   100 / 100001 elapsed  2 system 0.80 temp 102.1 hbonds, Rg  66.6 A, potential    50.22
+   100 / 100001 elapsed  1 system 0.80 temp 106.6 hbonds, Rg  66.5 A, potential    62.10
+   100 / 100001 elapsed  0 system 0.80 temp  98.7 hbonds, Rg  66.6 A, potential    77.88
+   200 / 100001 elapsed  3 system 0.80 temp 101.7 hbonds, Rg  66.6 A, potential    98.04
+   200 / 100001 elapsed  2 system 0.80 temp 101.5 hbonds, Rg  66.5 A, potential    34.12
+   200 / 100001 elapsed  1 system 0.80 temp 102.8 hbonds, Rg  66.7 A, potential    43.95
+   200 / 100001 elapsed  0 system 0.80 temp  98.4 hbonds, Rg  66.5 A, potential    52.68
+   300 / 100001 elapsed  2 system 0.80 temp 105.8 hbonds, Rg  66.7 A, potential    67.54
+   300 / 100001 elapsed  3 system 0.80 temp 102.2 hbonds, Rg  66.4 A, potential    61.96
+   300 / 100001 elapsed  0 system 0.80 temp 103.5 hbonds, Rg  66.6 A, potential    28.66
+   300 / 100001 elapsed  1 system 0.80 temp  95.4 hbonds, Rg  66.5 A, potential    71.10
+   400 / 100001 elapsed  2 system 0.80 temp 101.8 hbonds, Rg  66.5 A, potential    37.11
+   400 / 100001 elapsed  3 system 0.80 temp 101.5 hbonds, Rg  66.6 A, potential    64.05
+   400 / 100001 elapsed  0 system 0.80 temp  99.5 hbonds, Rg  66.5 A, potential    34.77
+   400 / 100001 elapsed  1 system 0.80 temp 103.2 hbonds, Rg  66.4 A, potential    19.59
+   500 / 100001 elapsed  2 system 0.80 temp 102.3 hbonds, Rg  66.6 A, potential    38.83
+   500 / 100001 elapsed  3 system 0.80 temp 105.2 hbonds, Rg  66.5 A, potential    71.10
+   500 / 100001 elapsed  1 system 0.80 temp 101.4 hbonds, Rg  66.6 A, potential    64.16
+   500 / 100001 elapsed  0 system 0.80 temp 104.6 hbonds, Rg  66.4 A, potential    66.66
+   600 / 100001 elapsed  3 system 0.80 temp 101.3 hbonds, Rg  66.4 A, potential    49.06
+   600 / 100001 elapsed  2 system 0.80 temp 104.3 hbonds, Rg  66.5 A, potential    41.96
+   600 / 100001 elapsed  0 system 0.80 temp 102.0 hbonds, Rg  66.5 A, potential    66.76
+   600 / 100001 elapsed  1 system 0.80 temp 106.0 hbonds, Rg  66.5 A, potential    37.34
+   700 / 100001 elapsed  2 system 0.80 temp  99.0 hbonds, Rg  66.5 A, potential    43.72
+   700 / 100001 elapsed  3 system 0.80 temp 102.9 hbonds, Rg  66.5 A, potential    58.73
+   700 / 100001 elapsed  1 system 0.80 temp 104.9 hbonds, Rg  66.5 A, potential    33.60
+   700 / 100001 elapsed  0 system 0.80 temp 102.4 hbonds, Rg  66.5 A, potential    50.07
+   800 / 100001 elapsed  1 system 0.80 temp  97.1 hbonds, Rg  66.7 A, potential    51.43
+   800 / 100001 elapsed  3 system 0.80 temp 102.2 hbonds, Rg  66.7 A, potential    55.02
+   800 / 100001 elapsed  2 system 0.80 temp 104.4 hbonds, Rg  66.6 A, potential    71.59
+   800 / 100001 elapsed  0 system 0.80 temp 102.6 hbonds, Rg  66.6 A, potential    18.29
+   900 / 100001 elapsed  1 system 0.80 temp 105.1 hbonds, Rg  66.5 A, potential    33.92
+   900 / 100001 elapsed  3 system 0.80 temp  97.7 hbonds, Rg  66.5 A, potential    23.10
+   900 / 100001 elapsed  2 system 0.80 temp 100.0 hbonds, Rg  66.4 A, potential    48.13
+   900 / 100001 elapsed  0 system 0.80 temp 103.2 hbonds, Rg  66.5 A, potential    33.82
+  1000 / 100001 elapsed  1 system 0.80 temp 101.2 hbonds, Rg  66.5 A, potential    41.56
+  1000 / 100001 elapsed  3 system 0.80 temp 105.8 hbonds, Rg  66.7 A, potential    44.83
+  1000 / 100001 elapsed  2 system 0.80 temp 105.0 hbonds, Rg  66.6 A, potential    19.90
+  1000 / 100001 elapsed  0 system 0.80 temp  99.6 hbonds, Rg  66.5 A, potential   122.92
+  1100 / 100001 elapsed  3 system 0.80 temp 101.9 hbonds, Rg  66.4 A, potential    26.24
+  1100 / 100001 elapsed  1 system 0.80 temp 104.3 hbonds, Rg  66.6 A, potential    48.58
+  1100 / 100001 elapsed  2 system 0.80 temp 104.2 hbonds, Rg  66.4 A, potential    16.27
+  1100 / 100001 elapsed  0 system 0.80 temp 100.4 hbonds, Rg  66.6 A, potential    -4.73
+  1200 / 100001 elapsed  3 system 0.80 temp 104.5 hbonds, Rg  66.5 A, potential    25.66
+  1200 / 100001 elapsed  1 system 0.80 temp  96.9 hbonds, Rg  66.4 A, potential    56.63
+  1200 / 100001 elapsed  2 system 0.80 temp 102.8 hbonds, Rg  66.4 A, potential    18.60
+  1200 / 100001 elapsed  0 system 0.80 temp 101.2 hbonds, Rg  66.7 A, potential    71.00
+  1300 / 100001 elapsed  3 system 0.80 temp 104.4 hbonds, Rg  66.5 A, potential    61.98
+  1300 / 100001 elapsed  1 system 0.80 temp 106.6 hbonds, Rg  66.5 A, potential    33.00
+  1300 / 100001 elapsed  2 system 0.80 temp  98.4 hbonds, Rg  66.5 A, potential    59.50
+  1300 / 100001 elapsed  0 system 0.80 temp 103.1 hbonds, Rg  66.4 A, potential    -7.25
+  1400 / 100001 elapsed  3 system 0.80 temp  99.0 hbonds, Rg  66.7 A, potential    30.73
+  1400 / 100001 elapsed  1 system 0.80 temp 100.6 hbonds, Rg  66.5 A, potential    40.81
+  1400 / 100001 elapsed  2 system 0.80 temp 100.5 hbonds, Rg  66.5 A, potential    43.34
+  1400 / 100001 elapsed  0 system 0.80 temp  99.2 hbonds, Rg  66.7 A, potential    21.48
+  1500 / 100001 elapsed  3 system 0.80 temp 104.3 hbonds, Rg  66.7 A, potential    53.97
+  1500 / 100001 elapsed  2 system 0.80 temp 100.3 hbonds, Rg  66.6 A, potential    56.18
+  1500 / 100001 elapsed  1 system 0.80 temp  99.1 hbonds, Rg  66.7 A, potential    49.02
+  1500 / 100001 elapsed  0 system 0.80 temp  99.9 hbonds, Rg  66.5 A, potential    46.27
+  1600 / 100001 elapsed  3 system 0.80 temp 107.0 hbonds, Rg  66.5 A, potential    29.07
+  1600 / 100001 elapsed  2 system 0.80 temp 104.0 hbonds, Rg  66.6 A, potential    15.81
+  1600 / 100001 elapsed  1 system 0.80 temp 102.2 hbonds, Rg  66.6 A, potential    31.51
+  1600 / 100001 elapsed  0 system 0.80 temp 103.3 hbonds, Rg  66.5 A, potential    52.57
+  1700 / 100001 elapsed  3 system 0.80 temp 101.1 hbonds, Rg  66.6 A, potential     9.72
+  1700 / 100001 elapsed  2 system 0.80 temp 104.1 hbonds, Rg  66.4 A, potential    30.60
+  1700 / 100001 elapsed  1 system 0.80 temp  99.5 hbonds, Rg  66.6 A, potential    28.03
+  1700 / 100001 elapsed  0 system 0.80 temp 101.5 hbonds, Rg  66.6 A, potential     9.03
+  1800 / 100001 elapsed  3 system 0.80 temp 101.3 hbonds, Rg  66.5 A, potential    28.96
+  1800 / 100001 elapsed  1 system 0.80 temp 100.2 hbonds, Rg  66.5 A, potential    44.25
+  1800 / 100001 elapsed  2 system 0.80 temp  99.4 hbonds, Rg  66.4 A, potential    20.29
+  1800 / 100001 elapsed  0 system 0.80 temp 101.7 hbonds, Rg  66.6 A, potential    44.84
+  1900 / 100001 elapsed  3 system 0.80 temp 101.6 hbonds, Rg  66.5 A, potential    24.41
+  1900 / 100001 elapsed  2 system 0.80 temp 101.9 hbonds, Rg  66.5 A, potential    11.60
+  1900 / 100001 elapsed  1 system 0.80 temp  96.8 hbonds, Rg  66.7 A, potential    34.08
+  1900 / 100001 elapsed  0 system 0.80 temp 103.4 hbonds, Rg  66.7 A, potential    40.05
+  2000 / 100001 elapsed  3 system 0.80 temp 105.9 hbonds, Rg  66.5 A, potential    10.63
+  2000 / 100001 elapsed  2 system 0.80 temp 103.8 hbonds, Rg  66.5 A, potential    33.95
+  2000 / 100001 elapsed  1 system 0.80 temp 100.4 hbonds, Rg  66.6 A, potential    27.50
+  2000 / 100001 elapsed  0 system 0.80 temp  97.5 hbonds, Rg  66.5 A, potential    27.71
+  2100 / 100001 elapsed  3 system 0.80 temp 100.8 hbonds, Rg  66.6 A, potential    15.64
+  2100 / 100001 elapsed  2 system 0.80 temp 102.1 hbonds, Rg  66.6 A, potential    32.94
+  2100 / 100001 elapsed  1 system 0.80 temp 105.3 hbonds, Rg  66.5 A, potential    12.19
+  2100 / 100001 elapsed  0 system 0.80 temp 100.4 hbonds, Rg  66.6 A, potential    44.93
+  2200 / 100001 elapsed  3 system 0.80 temp 103.1 hbonds, Rg  66.4 A, potential    38.59
+  2200 / 100001 elapsed  2 system 0.80 temp 104.3 hbonds, Rg  66.6 A, potential    42.50
+  2200 / 100001 elapsed  1 system 0.80 temp 101.9 hbonds, Rg  66.7 A, potential    18.48
+  2200 / 100001 elapsed  0 system 0.80 temp 105.1 hbonds, Rg  66.6 A, potential    24.13
+  2300 / 100001 elapsed  3 system 0.80 temp 103.6 hbonds, Rg  66.6 A, potential    47.25
+  2300 / 100001 elapsed  2 system 0.80 temp 104.4 hbonds, Rg  66.7 A, potential    27.03
+  2300 / 100001 elapsed  1 system 0.80 temp 103.3 hbonds, Rg  66.6 A, potential    36.64
+  2300 / 100001 elapsed  0 system 0.80 temp  99.6 hbonds, Rg  66.7 A, potential    45.58
+  2400 / 100001 elapsed  3 system 0.80 temp  96.4 hbonds, Rg  66.7 A, potential    27.92
+  2400 / 100001 elapsed  2 system 0.80 temp 101.5 hbonds, Rg  66.7 A, potential    25.64
+  2400 / 100001 elapsed  1 system 0.80 temp  98.1 hbonds, Rg  66.6 A, potential    25.27
+  2400 / 100001 elapsed  0 system 0.80 temp 103.2 hbonds, Rg  66.7 A, potential    25.74
+  2500 / 100001 elapsed  3 system 0.80 temp 104.2 hbonds, Rg  66.6 A, potential    31.65
+  2500 / 100001 elapsed  2 system 0.80 temp 105.2 hbonds, Rg  66.6 A, potential     2.99
+  2500 / 100001 elapsed  1 system 0.80 temp  97.3 hbonds, Rg  66.7 A, potential    20.46
+  2500 / 100001 elapsed  0 system 0.80 temp 106.3 hbonds, Rg  66.4 A, potential    25.22
+  2600 / 100001 elapsed  3 system 0.80 temp 104.0 hbonds, Rg  66.4 A, potential    -7.50
+  2600 / 100001 elapsed  2 system 0.80 temp  98.8 hbonds, Rg  66.4 A, potential    23.19
+  2600 / 100001 elapsed  1 system 0.80 temp 106.1 hbonds, Rg  66.8 A, potential    21.96
+  2600 / 100001 elapsed  0 system 0.80 temp 102.5 hbonds, Rg  66.7 A, potential    29.85
+  2700 / 100001 elapsed  3 system 0.80 temp 104.3 hbonds, Rg  66.6 A, potential    32.35
+  2700 / 100001 elapsed  2 system 0.80 temp 103.3 hbonds, Rg  66.5 A, potential    15.50
+  2700 / 100001 elapsed  1 system 0.80 temp  97.3 hbonds, Rg  66.6 A, potential    69.00
+  2700 / 100001 elapsed  0 system 0.80 temp 101.0 hbonds, Rg  66.5 A, potential    25.36
+  2800 / 100001 elapsed  3 system 0.80 temp 104.1 hbonds, Rg  66.6 A, potential    24.72
+  2800 / 100001 elapsed  2 system 0.80 temp 100.5 hbonds, Rg  66.7 A, potential    16.30
+  2800 / 100001 elapsed  1 system 0.80 temp 103.1 hbonds, Rg  66.6 A, potential     1.45
+  2800 / 100001 elapsed  0 system 0.80 temp 101.7 hbonds, Rg  66.5 A, potential    49.43
+  2900 / 100001 elapsed  3 system 0.80 temp 100.9 hbonds, Rg  66.6 A, potential    18.57
+  2900 / 100001 elapsed  2 system 0.80 temp 104.6 hbonds, Rg  66.5 A, potential    48.30
+  2900 / 100001 elapsed  0 system 0.80 temp  99.3 hbonds, Rg  66.6 A, potential    64.95
+  2900 / 100001 elapsed  1 system 0.80 temp 105.6 hbonds, Rg  66.5 A, potential    42.20
+  3000 / 100001 elapsed  3 system 0.80 temp 100.5 hbonds, Rg  66.5 A, potential    51.09
+  3000 / 100001 elapsed  2 system 0.80 temp  99.0 hbonds, Rg  66.6 A, potential    39.48
+  3000 / 100001 elapsed  0 system 0.80 temp 102.5 hbonds, Rg  66.7 A, potential    17.83
+  3000 / 100001 elapsed  1 system 0.80 temp 104.4 hbonds, Rg  66.6 A, potential    38.21
+  3100 / 100001 elapsed  3 system 0.80 temp 101.8 hbonds, Rg  66.7 A, potential    26.08
+  3100 / 100001 elapsed  2 system 0.80 temp 102.8 hbonds, Rg  66.5 A, potential    30.28
+  3100 / 100001 elapsed  0 system 0.80 temp 101.5 hbonds, Rg  66.4 A, potential    28.26
+  3100 / 100001 elapsed  1 system 0.80 temp 102.7 hbonds, Rg  66.5 A, potential    26.91
+  3200 / 100001 elapsed  3 system 0.80 temp 100.3 hbonds, Rg  66.6 A, potential    44.75
+  3200 / 100001 elapsed  2 system 0.80 temp 102.7 hbonds, Rg  66.7 A, potential    33.89
+  3200 / 100001 elapsed  0 system 0.80 temp  98.6 hbonds, Rg  66.5 A, potential    35.02
+  3200 / 100001 elapsed  1 system 0.80 temp 102.2 hbonds, Rg  66.4 A, potential    54.52

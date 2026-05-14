@@ -45,10 +45,6 @@ continue_sim     = False # when you run a new simulation, set it as "False"
 randomseed       = -1    # np.random.randint(0,100000) 
                          # Might want to change the fixed seed for the random number
 
-account          = "your_account"    # FIXME change it 
-partition        = "yout_partition"  # FIXME change it
-job_name         = '{}_{}'.format(pdb_id, sim_id)
-run_time         = "36:00:00" # requested run time of job allocation in hh:mm:ss
 
 
 #----------------------------------------------------------------------
@@ -203,21 +199,7 @@ else:
     for fn in h5_files:
         shutil.copyfile(config_base, fn)
 
-# SLURM options
-# Will want to increase the time for production runs 
-sbatch_opts = (
-                "--account={} " #bphs35001
-                "--job-name={} "
-                "--output={} "
-                "--time={} "
-                "--partition={} "
-                "--nodes=1 "
-                "--ntasks-per-node={} "
-              )
-
-sbatch_opts = sbatch_opts.format(account, job_name, log_file, run_time, partition, n_rep)
-
 print ("Running...")
-#cmd = "{}/obj/upside {} {}".format( upside_path, upside_opts, h5_files_str)
-cmd = "sbatch {} --wrap=\"{}/obj/upside {} {}\"".format(sbatch_opts, upside_path, upside_opts, h5_files_str)
+cmd = "\"{}/obj/upside\" {} {}".format(upside_path, upside_opts, h5_files_str)
+print (cmd)
 sp.check_call(cmd, shell=True)

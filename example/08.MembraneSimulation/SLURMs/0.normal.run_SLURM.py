@@ -4,6 +4,7 @@ import numpy as np
 import tables as tb
 from math import sqrt
 import time
+import argparse
 
 upside_path = os.environ['UPSIDE_HOME']
 upside_utils_dir = os.path.expanduser(upside_path+"/py")
@@ -11,41 +12,50 @@ sys.path.insert(0, upside_utils_dir)
 import run_upside as ru
 
 #----------------------------------------------------------------------
+## SLURM Settings
+#----------------------------------------------------------------------
+
+parser = argparse.ArgumentParser(description='Run upside simulation via SLURM')
+parser.add_argument('--account',   required=True,      help='SLURM account name')
+parser.add_argument('--partition', required=True,      help='SLURM partition name')
+parser.add_argument('--time',      default='36:00:00', help='Job time limit (hh:mm:ss)')
+args = parser.parse_args()
+
+account   = args.account
+partition = args.partition
+run_time  = args.time
+
+#----------------------------------------------------------------------
 ## General Settings and Path
 #----------------------------------------------------------------------
 
-pdb_id           = 'three_1rkl_b'
+pdb_id           = '1qhj'
 pdb_dir          = './pdb'
-sim_id           = 'curv_dy2'
+sim_id           = 'memb_test'
 is_native        = True
 ff               = 'ff_2.1'
-thickness        = 24.8
+thickness        = 31.8
 
-duration         = 100001
-frame_interval   = 100
+duration         = 5000
+frame_interval   = 50
 work_dir         = './'
-
-curvature_radius = 140.  # curvature radius (angstrom)
-curvature_sign   = 1     # 1 means positive curvature, -1 means negative curvature
 
 exchange         = False # if True, it will run the replica exchange simulation
                          # if False, it will run the constant temperature simulation
 
-n_rep            = 4     # replica number
-T_low            = 0.80 
+n_rep            = 8     # replica number
+T_low            = 0.80
 T_high           = 0.80
 replica_interval = 10    # How long takes an exchange attempt (upside time unit)
 
-continue_sim     = False # when you run a new simulation, set it as "False"
+continue_sim     = True  # when you run a new simulation, set it as "False"
                          # "True" means restarting the simulation from the last frame
-                         # of the previous trajectories (they should have the same 
-                         # pdb_id and sim_id as the new simulation, and exist in the 
+                         # of the previous trajectories (they should have the same
+                         # pdb_id and sim_id as the new simulation, and exist in the
                          # corresponding path)
 
-randomseed       = -1    # np.random.randint(0,100000) 
+randomseed       = 1     # np.random.randint(0,100000)
                          # Might want to change the fixed seed for the random number
-
-
 
 #----------------------------------------------------------------------
 # Set the path and filename
@@ -53,7 +63,7 @@ randomseed       = -1    # np.random.randint(0,100000)
 
 input_dir  = "{}/inputs".format(work_dir)
 output_dir = "{}/outputs".format(work_dir)
-run_dir    = "{}/{}".format(output_dir, sim_id) 
+run_dir    = "{}/{}".format(output_dir, sim_id)
 
 make_dirs = [input_dir, output_dir, run_dir]
 for direc in make_dirs:
@@ -61,14 +71,14 @@ for direc in make_dirs:
         os.makedirs(direc)
 
 h5_files = []
-for j in range(n_rep): 
+for j in range(n_rep):
     h5_file  = "{}/{}.run.{}.up".format(run_dir, pdb_id, j)
     h5_files.append(h5_file)
 h5_files_str = " ".join(h5 for h5 in h5_files)
 log_file = "{}/{}.run.log".format(run_dir, pdb_id)
 
 #----------------------------------------------------------------------
-## Check the previous trajectories if you set continue_sim = True 
+## Check the previous trajectories if you set continue_sim = True
 #----------------------------------------------------------------------
 
 if continue_sim:
@@ -85,7 +95,7 @@ if continue_sim:
             print('Warning: no previous log file {}!'.format(log_file))
 
 #----------------------------------------------------------------------
-## Generate Upside readable initial structure (and fasta) from PDB 
+## Generate Upside readable initial structure (and fasta) from PDB
 #----------------------------------------------------------------------
 
 if not continue_sim:
@@ -125,9 +135,6 @@ kwargs = dict(
                membrane_potential        = param_dir_ff + "membrane.h5",
                membrane_thickness        = thickness,
                chain_break_from_file     = "{}/{}.chain_breaks".format(input_dir, pdb_id),
-               use_curvature             = True,
-               curvature_radius          = curvature_radius,
-               curvature_sign            = curvature_sign,
              )
 
 if is_native:
@@ -141,16 +148,6 @@ if not continue_sim:
     print ("Config commandline options:")
     print (config_stdout)
 
-if not continue_sim:
-    kwargs = dict(
-                   nail = 'nail-y.dat'
-                 )
-    
-    config_stdout = ru.advanced_config(config_base, **kwargs)
-    print ("Advanced Config commandline options:")
-    print (config_stdout)
-
-
 #----------------------------------------------------------------------
 ## Run Settings
 #----------------------------------------------------------------------
@@ -160,16 +157,14 @@ upside_opts = (
                  "--frame-interval {} "
                  "--temperature {} "
                  "--seed {} "
-                 "--disable-recentering "
-                 "--integrator mv "
-                 "--curvature-changer-interval 10 "
+                 "--disable-z-recentering "
                )
 
 tempers =  np.linspace(sqrt(T_low), sqrt(T_high), n_rep)**2
 tempers_str = ",".join(str(t) for t in tempers)
 
 if exchange:
-    swap_sets    = ru.swap_table2d(1, len(tempers)) # specifies which replicas are able to exchange 
+    swap_sets    = ru.swap_table2d(1, len(tempers)) # specifies which replicas are able to exchange
     upside_opts += "--replica-interval {} --swap-set {} --swap-set {} " # only perform swaps for replex; duration of time until swap is attempted
     upside_opts  = upside_opts.format(duration, frame_interval, tempers_str, randomseed, replica_interval, swap_sets[0], swap_sets[1])
 else:
@@ -209,7 +204,19 @@ else:
     for fn in h5_files:
         shutil.copyfile(config_base, fn)
 
+job_name = '{}_{}'.format(pdb_id, sim_id)
+
 print ("Running...")
-cmd = "\"{}/obj/upside\" {} {}".format(upside_path, upside_opts, h5_files_str)
+sbatch_opts = (
+                "--account={} "
+                "--job-name={} "
+                "--output={} "
+                "--time={} "
+                "--partition={} "
+                "--nodes=1 "
+                "--ntasks-per-node={} "
+              )
+sbatch_opts = sbatch_opts.format(account, job_name, log_file, run_time, partition, n_rep)
+cmd = "sbatch {} --wrap=\"{}/obj/upside {} {}\"".format(sbatch_opts, upside_path, upside_opts, h5_files_str)
 print (cmd)
 sp.check_call(cmd, shell=True)
