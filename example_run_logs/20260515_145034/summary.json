@@ -1,0 +1,277 @@
+{
+  "archive": [],
+  "args": {
+    "limit": 0,
+    "list": false,
+    "no_archive": true
+  },
+  "artifacts": {
+    "01.GettingStarted": {
+      "generated_dirs": [
+        {
+          "bytes": 1588434,
+          "files": 4,
+          "path": "example/01.GettingStarted/inputs"
+        },
+        {
+          "bytes": 1648764,
+          "files": 2,
+          "path": "example/01.GettingStarted/outputs"
+        },
+        {
+          "bytes": 21856,
+          "files": 2,
+          "path": "example/01.GettingStarted/results"
+        }
+      ],
+      "notable_counts": {
+        ".log": 2,
+        ".npy": 1,
+        ".rmsd": 1,
+        ".up": 2,
+        ".vtf": 1
+      },
+      "notable_files": {
+        ".log": [
+          "example/01.GettingStarted/01_GettingStarted.log",
+          "example/01.GettingStarted/outputs/simple_test/chig.run.log"
+        ],
+        ".npy": [
+          "example/01.GettingStarted/inputs/chig.initial.npy"
+        ],
+        ".rmsd": [
+          "example/01.GettingStarted/results/chig_simple_test.rmsd"
+        ],
+        ".up": [
+          "example/01.GettingStarted/inputs/chig.up",
+          "example/01.GettingStarted/outputs/simple_test/chig.run.up"
+        ],
+        ".vtf": [
+          "example/01.GettingStarted/results/chig_simple_test.vtf"
+        ]
+      }
+    },
+    "02.ReplicaExchangeSimulation": {
+      "generated_dirs": [
+        {
+          "bytes": 1588498,
+          "files": 4,
+          "path": "example/02.ReplicaExchangeSimulation/inputs"
+        },
+        {
+          "bytes": 13632100,
+          "files": 8,
+          "path": "example/02.ReplicaExchangeSimulation/outputs"
+        }
+      ],
+      "notable_counts": {
+        ".log": 1,
+        ".npy": 1,
+        ".up": 9
+      },
+      "notable_files": {
+        ".log": [
+          "example/02.ReplicaExchangeSimulation/02_ReplicaExchangeSimulation.log"
+        ],
+        ".npy": [
+          "example/02.ReplicaExchangeSimulation/inputs/chig.initial.npy"
+        ],
+        ".up": [
+          "example/02.ReplicaExchangeSimulation/inputs/chig.up",
+          "example/02.ReplicaExchangeSimulation/outputs/REMD/chig.run.0.up",
+          "example/02.ReplicaExchangeSimulation/outputs/REMD/chig.run.1.up",
+          "example/02.ReplicaExchangeSimulation/outputs/REMD/chig.run.2.up",
+          "example/02.ReplicaExchangeSimulation/outputs/REMD/chig.run.3.up",
+          "example/02.ReplicaExchangeSimulation/outputs/REMD/chig.run.4.up",
+          "example/02.ReplicaExchangeSimulation/outputs/REMD/chig.run.5.up",
+          "example/02.ReplicaExchangeSimulation/outputs/REMD/chig.run.6.up",
+          "example/02.ReplicaExchangeSimulation/outputs/REMD/chig.run.7.up"
+        ]
+      }
+    },
+    "04.HDX": {
+      "generated_dirs": [
+        {
+          "bytes": 3164550,
+          "files": 4,
+          "path": "example/04.HDX/inputs"
+        },
+        {
+          "bytes": 50709820,
+          "files": 16,
+          "path": "example/04.HDX/outputs"
+        }
+      ],
+      "notable_counts": {
+        ".npy": 1,
+        ".up": 17
+      },
+      "notable_files": {
+        ".npy": [
+          "example/04.HDX/inputs/EHEE_rd2_0005.initial.npy"
+        ],
+        ".up": [
+          "example/04.HDX/inputs/EHEE_rd2_0005.up",
+          "example/04.HDX/outputs/REMD/EHEE_rd2_0005.run.0.up",
+          "example/04.HDX/outputs/REMD/EHEE_rd2_0005.run.1.up",
+          "example/04.HDX/outputs/REMD/EHEE_rd2_0005.run.10.up",
+          "example/04.HDX/outputs/REMD/EHEE_rd2_0005.run.11.up",
+          "example/04.HDX/outputs/REMD/EHEE_rd2_0005.run.12.up",
+          "example/04.HDX/outputs/REMD/EHEE_rd2_0005.run.13.up",
+          "example/04.HDX/outputs/REMD/EHEE_rd2_0005.run.14.up",
+          "example/04.HDX/outputs/REMD/EHEE_rd2_0005.run.15.up",
+          "example/04.HDX/outputs/REMD/EHEE_rd2_0005.run.2.up",
+          "example/04.HDX/outputs/REMD/EHEE_rd2_0005.run.3.up",
+          "example/04.HDX/outputs/REMD/EHEE_rd2_0005.run.4.up",
+          "example/04.HDX/outputs/REMD/EHEE_rd2_0005.run.5.up",
+          "example/04.HDX/outputs/REMD/EHEE_rd2_0005.run.6.up",
+          "example/04.HDX/outputs/REMD/EHEE_rd2_0005.run.7.up",
+          "example/04.HDX/outputs/REMD/EHEE_rd2_0005.run.8.up",
+          "example/04.HDX/outputs/REMD/EHEE_rd2_0005.run.9.up"
+        ]
+      }
+    },
+    "05.Advanced_config.py": {
+      "generated_dirs": [],
+      "notable_counts": {},
+      "notable_files": {}
+    },
+    "06.PullingSimulation": {
+      "generated_dirs": [],
+      "notable_counts": {
+        ".dat": 2
+      },
+      "notable_files": {
+        ".dat": [
+          "example/06.PullingSimulation/1qhj_AFM.dat",
+          "example/06.PullingSimulation/1qhj_AFM_auto_init.dat"
+        ]
+      }
+    },
+    "07.MoreRestraints": {
+      "generated_dirs": [],
+      "notable_counts": {
+        ".dat": 5
+      },
+      "notable_files": {
+        ".dat": [
+          "example/07.MoreRestraints/nail-xyz.dat",
+          "example/07.MoreRestraints/spring-const-xyz.dat",
+          "example/07.MoreRestraints/spring-pair-xyz.dat",
+          "example/07.MoreRestraints/wall-const-xyz.dat",
+          "example/07.MoreRestraints/wall-pair-xyz.dat"
+        ]
+      }
+    },
+    "08.MembraneSimulation": {
+      "generated_dirs": [],
+      "notable_counts": {
+        ".dat": 3
+      },
+      "notable_files": {
+        ".dat": [
+          "example/08.MembraneSimulation/lateral.dat",
+          "example/08.MembraneSimulation/nail-xyz.dat",
+          "example/08.MembraneSimulation/nail-y.dat"
+        ]
+      }
+    },
+    "09.IsomerizationPRO": {
+      "generated_dirs": [],
+      "notable_counts": {
+        ".dat": 1
+      },
+      "notable_files": {
+        ".dat": [
+          "example/09.IsomerizationPRO/trans_cis.dat"
+        ]
+      }
+    },
+    "10.SelfAvoidRandomWalk": {
+      "generated_dirs": [],
+      "notable_counts": {},
+      "notable_files": {}
+    },
+    "12.MultistepIntegrator": {
+      "generated_dirs": [],
+      "notable_counts": {},
+      "notable_files": {}
+    },
+    "13.RestartSimulation": {
+      "generated_dirs": [],
+      "notable_counts": {},
+      "notable_files": {}
+    },
+    "15.SpatialTransformation": {
+      "generated_dirs": [],
+      "notable_counts": {},
+      "notable_files": {}
+    }
+  },
+  "commands": [],
+  "ended_at": "2026-05-15T14:50:34",
+  "excluded_examples": [
+    "00.AnalysisScripts",
+    "03.TrajectoryAnalysis",
+    "11.BigSystem"
+  ],
+  "hdf5": {
+    "files": {
+      "raw": "Traceback (most recent call last):\n  File \"<stdin>\", line 52, in <module>\n  File \"/media/nithin/data2/anaconda3/lib/python3.11/json/__init__.py\", line 238, in dumps\n    **kw).encode(obj)\n          ^^^^^^^^^^^\n  File \"/media/nithin/data2/anaconda3/lib/python3.11/json/encoder.py\", line 202, in encode\n    chunks = list(chunks)\n             ^^^^^^^^^^^^\n  File \"/media/nithin/data2/anaconda3/lib/python3.11/json/encoder.py\", line 432, in _iterencode\n    yield from _iterencode_dict(o, _current_indent_level)\n  File \"/media/nithin/data2/anaconda3/lib/python3.11/json/encoder.py\", line 406, in _iterencode_dict\n    yield from chunks\n  File \"/media/nithin/data2/anaconda3/lib/python3.11/json/encoder.py\", line 406, in _iterencode_dict\n    yield from chunks\n  File \"/media/nithin/data2/anaconda3/lib/python3.11/json/encoder.py\", line 406, in _iterencode_dict\n    yield from chunks\n  [Previous line repeated 1 more time]\n  File \"/media/nithin/data2/anaconda3/lib/python3.11/json/encoder.py\", line 326, in _iterencode_list\n    yield from chunks\n  File \"/media/nithin/data2/anaconda3/lib/python3.11/json/encoder.py\", line 439, in _iterencode\n    o = _default(o)\n        ^^^^^^^^^^^\n  File \"/media/nithin/data2/anaconda3/lib/python3.11/json/encoder.py\", line 180, in default\n    raise TypeError(f'Object of type {o.__class__.__name__} '\nTypeError: Object of type int64 is not JSON serializable\n"
+    },
+    "returncode": 1
+  },
+  "machine": {
+    "cpu": {
+      "output": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           43 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  12\nOn-line CPU(s) list:                     0-11\nVendor ID:                               AuthenticAMD\nModel name:                              AMD Ryzen 5 2600 Six-Core Processor\nCPU family:                              23\nModel:                                   8\nThread(s) per core:                      2\nCore(s) per socket:                      6\nSocket(s):                               1\nStepping:                                2\nFrequency boost:                         enabled\nCPU max MHz:                             3400.0000\nCPU min MHz:                             1550.0000\nBogoMIPS:                                6799.11\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca sme sev sev_es ibpb_exit_to_user\nVirtualization:                          AMD-V\nL1d cache:                               192 KiB (6 instances)\nL1i cache:                               384 KiB (6 instances)\nL2 cache:                                3 MiB (6 instances)\nL3 cache:                                16 MiB (2 instances)\nNUMA node(s):                            1",
+      "returncode": 0
+    },
+    "libupside": {
+      "exists": true,
+      "mtime": "2026-05-14T16:46:18",
+      "path": "obj/libupside.so",
+      "sha256": "34c811ec62b6dc2987bce9d4a9f980cf0739e330f071834008d7594d65b9f833",
+      "size_bytes": 37095392
+    },
+    "memory": {
+      "output": "total        used        free      shared  buff/cache   available\nMem:            62Gi       4.6Gi        27Gi        88Mi        31Gi        57Gi\nSwap:          2.0Gi          0B       2.0Gi",
+      "returncode": 0
+    },
+    "os": {
+      "output": "Linux nithin-MS-7B79 5.15.0-179-generic #189-Ubuntu SMP Tue May 5 18:20:56 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux",
+      "returncode": 0
+    },
+    "platform": "Linux-5.15.0-179-generic-x86_64-with-glibc2.35",
+    "python_and_packages": {
+      "output": "Python 3.11.9\nnumpy==2.4.4\ntables==3.11.1\nh5py==3.16.0\nmatplotlib==3.10.9\nscipy==1.17.1\nmdtraj==1.11.1.post1",
+      "returncode": 0
+    },
+    "python_executable": "/media/nithin/data2/anaconda3/bin/python3",
+    "upside_binary": {
+      "exists": true,
+      "mtime": "2026-05-14T16:43:59",
+      "path": "obj/upside",
+      "sha256": "41e26bba7fcd94187a1d8df0df492334d6962c33ce7aaf2786edc9b5d93f2e2b",
+      "size_bytes": 34611744
+    }
+  },
+  "report": "EXAMPLE_RUN_REPORT_20260515_145034.md",
+  "run_id": "20260515_145034",
+  "selected_examples": [
+    "01.GettingStarted",
+    "02.ReplicaExchangeSimulation",
+    "04.HDX",
+    "05.Advanced_config.py",
+    "06.PullingSimulation",
+    "07.MoreRestraints",
+    "08.MembraneSimulation",
+    "09.IsomerizationPRO",
+    "10.SelfAvoidRandomWalk",
+    "12.MultistepIntegrator",
+    "13.RestartSimulation",
+    "15.SpatialTransformation"
+  ],
+  "started_at": "2026-05-15T14:50:34",
+  "status": "completed",
+  "summary": "example_run_logs/20260515_145034/summary.json"
+}
