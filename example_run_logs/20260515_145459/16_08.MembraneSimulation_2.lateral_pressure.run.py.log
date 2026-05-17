@@ -1,0 +1,861 @@
+@> 1752 atoms and 1 coordinate set(s) were parsed in 0.01s.
+/home/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/py/upside_config.py:2403: VisibleDeprecationWarning: dtype(): align should be passed as Python or NumPy boolean but got `align=0`. Did you mean to pass a tuple to create a subarray type? (Deprecated NumPy 2.4)
+  ref_state_cor =  np.log(cPickle.load(open(args.reference_state_rama, 'rb'), encoding='latin1'))
+invocation: /home/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/obj/upside --duration 5000 --frame-interval 50 --temperature 0.7999999999999999,0.7999999999999999,0.7999999999999999,0.7999999999999999,0.7999999999999999,0.7999999999999999,0.7999999999999999,0.7999999999999999 --seed 1 --disable-z-recentering .//outputs/lateral_test/1qhj.run.0.up .//outputs/lateral_test/1qhj.run.1.up .//outputs/lateral_test/1qhj.run.2.up .//outputs/lateral_test/1qhj.run.3.up .//outputs/lateral_test/1qhj.run.4.up .//outputs/lateral_test/1qhj.run.5.up .//outputs/lateral_test/1qhj.run.6.up .//outputs/lateral_test/1qhj.run.7.up
+random seed: 1
+.//outputs/lateral_test/1qhj.run.0.up
+n_atom 684
+
+.//outputs/lateral_test/1qhj.run.1.up
+n_atom 684
+
+.//outputs/lateral_test/1qhj.run.2.up
+n_atom 684
+
+.//outputs/lateral_test/1qhj.run.3.up
+n_atom 684
+
+.//outputs/lateral_test/1qhj.run.4.up
+n_atom 684
+
+.//outputs/lateral_test/1qhj.run.5.up
+n_atom 684
+
+.//outputs/lateral_test/1qhj.run.6.up
+n_atom 684
+
+.//outputs/lateral_test/1qhj.run.7.up
+n_atom 684
+
+
+0 0.80
+1 0.80
+2 0.80
+3 0.80
+4 0.80
+5 0.80
+6 0.80
+7 0.80
+
+Initial potential energy: -546.14 -546.14 -546.14 -546.14 -546.14 -546.14 -546.14 -546.14
+   0 / 5000 elapsed  5 system 0.80 temp 241.7 hbonds, Rg  17.8 A, potential  -546.14
+   0 / 5000 elapsed  4 system 0.80 temp 241.7 hbonds, Rg  17.8 A, potential  -546.14
+   0 / 5000 elapsed  0 system 0.80 temp 241.7 hbonds, Rg  17.8 A, potential  -546.14
+   0 / 5000 elapsed  6 system 0.80 temp 241.7 hbonds, Rg  17.8 A, potential  -546.14
+   0 / 5000 elapsed  2 system 0.80 temp 241.7 hbonds, Rg  17.8 A, potential  -546.14
+   0 / 5000 elapsed  1 system 0.80 temp 241.7 hbonds, Rg  17.8 A, potential  -546.14
+   0 / 5000 elapsed  3 system 0.80 temp 241.7 hbonds, Rg  17.8 A, potential  -546.14
+   0 / 5000 elapsed  7 system 0.80 temp 241.7 hbonds, Rg  17.8 A, potential  -546.14
+  50 / 5000 elapsed  0 system 0.80 temp 291.5 hbonds, Rg  17.9 A, potential  -532.68
+  50 / 5000 elapsed  4 system 0.80 temp 294.6 hbonds, Rg  17.7 A, potential  -595.03
+  50 / 5000 elapsed  1 system 0.80 temp 302.6 hbonds, Rg  17.8 A, potential  -585.97
+  50 / 5000 elapsed  7 system 0.80 temp 301.5 hbonds, Rg  17.7 A, potential  -618.26
+  50 / 5000 elapsed  5 system 0.80 temp 302.4 hbonds, Rg  17.9 A, potential  -564.44
+  50 / 5000 elapsed  3 system 0.80 temp 299.8 hbonds, Rg  17.7 A, potential  -559.03
+  50 / 5000 elapsed  2 system 0.80 temp 293.5 hbonds, Rg  17.9 A, potential  -569.04
+  50 / 5000 elapsed  6 system 0.80 temp 297.9 hbonds, Rg  17.8 A, potential  -599.14
+ 100 / 5000 elapsed  0 system 0.80 temp 305.2 hbonds, Rg  17.8 A, potential  -560.91
+ 100 / 5000 elapsed  4 system 0.80 temp 306.3 hbonds, Rg  17.9 A, potential  -649.86
+ 100 / 5000 elapsed  1 system 0.80 temp 295.2 hbonds, Rg  18.2 A, potential  -530.68
+ 100 / 5000 elapsed  3 system 0.80 temp 297.0 hbonds, Rg  17.9 A, potential  -543.84
+ 100 / 5000 elapsed  7 system 0.80 temp 305.4 hbonds, Rg  17.9 A, potential  -590.56
+ 100 / 5000 elapsed  5 system 0.80 temp 304.8 hbonds, Rg  18.0 A, potential  -558.25
+ 100 / 5000 elapsed  2 system 0.80 temp 300.1 hbonds, Rg  18.2 A, potential  -556.45
+ 100 / 5000 elapsed  6 system 0.80 temp 298.2 hbonds, Rg  18.0 A, potential  -551.32
+ 150 / 5000 elapsed  0 system 0.80 temp 291.0 hbonds, Rg  18.1 A, potential  -510.90
+ 150 / 5000 elapsed  1 system 0.80 temp 305.1 hbonds, Rg  18.1 A, potential  -576.72
+ 150 / 5000 elapsed  4 system 0.80 temp 287.8 hbonds, Rg  18.0 A, potential  -501.02
+ 150 / 5000 elapsed  3 system 0.80 temp 305.1 hbonds, Rg  17.7 A, potential  -613.84
+ 150 / 5000 elapsed  7 system 0.80 temp 297.3 hbonds, Rg  17.9 A, potential  -584.00
+ 150 / 5000 elapsed  5 system 0.80 temp 308.1 hbonds, Rg  18.0 A, potential  -610.63
+ 150 / 5000 elapsed  2 system 0.80 temp 291.4 hbonds, Rg  18.0 A, potential  -559.41
+ 200 / 5000 elapsed  0 system 0.80 temp 293.5 hbonds, Rg  18.1 A, potential  -586.82
+ 200 / 5000 elapsed  1 system 0.80 temp 298.6 hbonds, Rg  18.1 A, potential  -599.25
+ 200 / 5000 elapsed  4 system 0.80 temp 298.4 hbonds, Rg  17.9 A, potential  -618.45
+ 200 / 5000 elapsed  3 system 0.80 temp 304.7 hbonds, Rg  17.7 A, potential  -578.83
+ 200 / 5000 elapsed  5 system 0.80 temp 308.3 hbonds, Rg  17.9 A, potential  -590.43
+ 200 / 5000 elapsed  7 system 0.80 temp 296.5 hbonds, Rg  17.9 A, potential  -598.96
+ 200 / 5000 elapsed  2 system 0.80 temp 302.7 hbonds, Rg  18.0 A, potential  -610.45
+ 150 / 5000 elapsed  6 system 0.80 temp 304.6 hbonds, Rg  18.1 A, potential  -584.72
+ 250 / 5000 elapsed  0 system 0.80 temp 292.7 hbonds, Rg  18.1 A, potential  -588.29
+ 250 / 5000 elapsed  1 system 0.80 temp 294.0 hbonds, Rg  18.1 A, potential  -569.47
+ 250 / 5000 elapsed  3 system 0.80 temp 304.7 hbonds, Rg  17.6 A, potential  -611.04
+ 250 / 5000 elapsed  4 system 0.80 temp 297.7 hbonds, Rg  18.0 A, potential  -586.92
+ 250 / 5000 elapsed  5 system 0.80 temp 309.3 hbonds, Rg  18.1 A, potential  -577.93
+ 250 / 5000 elapsed  7 system 0.80 temp 305.7 hbonds, Rg  18.0 A, potential  -569.31
+ 250 / 5000 elapsed  2 system 0.80 temp 299.5 hbonds, Rg  17.9 A, potential  -594.86
+ 200 / 5000 elapsed  6 system 0.80 temp 305.3 hbonds, Rg  18.0 A, potential  -558.08
+ 300 / 5000 elapsed  0 system 0.80 temp 298.0 hbonds, Rg  18.2 A, potential  -627.85
+ 300 / 5000 elapsed  1 system 0.80 temp 288.9 hbonds, Rg  18.0 A, potential  -585.68
+ 300 / 5000 elapsed  3 system 0.80 temp 302.3 hbonds, Rg  17.6 A, potential  -604.48
+ 300 / 5000 elapsed  4 system 0.80 temp 299.4 hbonds, Rg  18.1 A, potential  -608.04
+ 300 / 5000 elapsed  2 system 0.80 temp 305.8 hbonds, Rg  18.1 A, potential  -615.33
+ 300 / 5000 elapsed  7 system 0.80 temp 293.6 hbonds, Rg  17.7 A, potential  -579.05
+ 300 / 5000 elapsed  5 system 0.80 temp 307.2 hbonds, Rg  18.1 A, potential  -523.71
+ 350 / 5000 elapsed  1 system 0.80 temp 292.9 hbonds, Rg  18.1 A, potential  -546.85
+ 350 / 5000 elapsed  0 system 0.80 temp 301.5 hbonds, Rg  17.9 A, potential  -594.06
+ 350 / 5000 elapsed  3 system 0.80 temp 293.2 hbonds, Rg  17.7 A, potential  -542.34
+ 350 / 5000 elapsed  4 system 0.80 temp 294.7 hbonds, Rg  18.2 A, potential  -528.01
+ 350 / 5000 elapsed  2 system 0.80 temp 295.3 hbonds, Rg  18.2 A, potential  -589.36
+ 350 / 5000 elapsed  7 system 0.80 temp 300.4 hbonds, Rg  17.8 A, potential  -550.77
+ 350 / 5000 elapsed  5 system 0.80 temp 304.4 hbonds, Rg  18.0 A, potential  -567.74
+ 250 / 5000 elapsed  6 system 0.80 temp 300.2 hbonds, Rg  18.3 A, potential  -540.91
+ 400 / 5000 elapsed  1 system 0.80 temp 292.9 hbonds, Rg  18.1 A, potential  -578.48
+ 400 / 5000 elapsed  0 system 0.80 temp 303.4 hbonds, Rg  17.7 A, potential  -620.07
+ 400 / 5000 elapsed  3 system 0.80 temp 312.4 hbonds, Rg  17.7 A, potential  -542.40
+ 400 / 5000 elapsed  2 system 0.80 temp 299.2 hbonds, Rg  18.0 A, potential  -580.58
+ 400 / 5000 elapsed  4 system 0.80 temp 295.9 hbonds, Rg  18.6 A, potential  -552.07
+ 400 / 5000 elapsed  7 system 0.80 temp 302.3 hbonds, Rg  17.9 A, potential  -604.77
+ 400 / 5000 elapsed  5 system 0.80 temp 314.0 hbonds, Rg  18.1 A, potential  -570.87
+ 450 / 5000 elapsed  1 system 0.80 temp 300.5 hbonds, Rg  18.0 A, potential  -582.21
+ 450 / 5000 elapsed  0 system 0.80 temp 302.8 hbonds, Rg  17.6 A, potential  -558.22
+ 450 / 5000 elapsed  3 system 0.80 temp 307.2 hbonds, Rg  17.8 A, potential  -612.02
+ 450 / 5000 elapsed  2 system 0.80 temp 295.4 hbonds, Rg  18.1 A, potential  -530.52
+ 450 / 5000 elapsed  7 system 0.80 temp 300.9 hbonds, Rg  17.7 A, potential  -623.14
+ 450 / 5000 elapsed  4 system 0.80 temp 292.8 hbonds, Rg  18.5 A, potential  -541.22
+ 300 / 5000 elapsed  6 system 0.80 temp 296.8 hbonds, Rg  18.6 A, potential  -557.70
+ 450 / 5000 elapsed  5 system 0.80 temp 303.9 hbonds, Rg  18.0 A, potential  -592.44
+ 500 / 5000 elapsed  1 system 0.80 temp 292.2 hbonds, Rg  17.9 A, potential  -643.60
+ 500 / 5000 elapsed  3 system 0.80 temp 303.3 hbonds, Rg  17.7 A, potential  -600.84
+ 500 / 5000 elapsed  0 system 0.80 temp 305.9 hbonds, Rg  17.9 A, potential  -616.92
+ 500 / 5000 elapsed  2 system 0.80 temp 299.0 hbonds, Rg  18.2 A, potential  -572.84
+ 500 / 5000 elapsed  7 system 0.80 temp 304.5 hbonds, Rg  17.7 A, potential  -581.87
+ 500 / 5000 elapsed  4 system 0.80 temp 295.4 hbonds, Rg  18.2 A, potential  -595.53
+ 500 / 5000 elapsed  5 system 0.80 temp 298.2 hbonds, Rg  17.9 A, potential  -597.09
+ 350 / 5000 elapsed  6 system 0.80 temp 292.6 hbonds, Rg  18.7 A, potential  -583.37
+ 550 / 5000 elapsed  1 system 0.80 temp 299.4 hbonds, Rg  18.0 A, potential  -639.78
+ 550 / 5000 elapsed  3 system 0.80 temp 301.0 hbonds, Rg  17.6 A, potential  -613.15
+ 550 / 5000 elapsed  0 system 0.80 temp 302.5 hbonds, Rg  17.9 A, potential  -625.05
+ 550 / 5000 elapsed  2 system 0.80 temp 298.8 hbonds, Rg  18.1 A, potential  -601.82
+ 550 / 5000 elapsed  7 system 0.80 temp 301.8 hbonds, Rg  17.7 A, potential  -591.63
+ 550 / 5000 elapsed  4 system 0.80 temp 298.5 hbonds, Rg  18.2 A, potential  -567.29
+ 550 / 5000 elapsed  5 system 0.80 temp 303.4 hbonds, Rg  18.2 A, potential  -571.64
+ 400 / 5000 elapsed  6 system 0.80 temp 305.5 hbonds, Rg  18.5 A, potential  -594.00
+ 600 / 5000 elapsed  1 system 0.80 temp 295.1 hbonds, Rg  18.1 A, potential  -555.24
+ 600 / 5000 elapsed  3 system 0.80 temp 297.8 hbonds, Rg  17.8 A, potential  -561.04
+ 600 / 5000 elapsed  0 system 0.80 temp 305.4 hbonds, Rg  18.1 A, potential  -593.33
+ 600 / 5000 elapsed  7 system 0.80 temp 301.2 hbonds, Rg  17.7 A, potential  -634.16
+ 600 / 5000 elapsed  2 system 0.80 temp 298.6 hbonds, Rg  18.2 A, potential  -595.34
+ 600 / 5000 elapsed  4 system 0.80 temp 292.2 hbonds, Rg  18.2 A, potential  -631.90
+ 600 / 5000 elapsed  5 system 0.80 temp 296.0 hbonds, Rg  17.9 A, potential  -634.65
+ 450 / 5000 elapsed  6 system 0.80 temp 299.9 hbonds, Rg  18.7 A, potential  -550.61
+ 650 / 5000 elapsed  1 system 0.80 temp 298.0 hbonds, Rg  18.1 A, potential  -597.22
+ 650 / 5000 elapsed  3 system 0.80 temp 301.4 hbonds, Rg  17.9 A, potential  -555.62
+ 650 / 5000 elapsed  7 system 0.80 temp 302.0 hbonds, Rg  17.8 A, potential  -578.22
+ 650 / 5000 elapsed  0 system 0.80 temp 305.7 hbonds, Rg  18.1 A, potential  -574.46
+ 650 / 5000 elapsed  4 system 0.80 temp 295.0 hbonds, Rg  18.2 A, potential  -590.10
+ 650 / 5000 elapsed  2 system 0.80 temp 295.1 hbonds, Rg  18.1 A, potential  -561.18
+ 650 / 5000 elapsed  5 system 0.80 temp 300.5 hbonds, Rg  18.1 A, potential  -601.06
+ 500 / 5000 elapsed  6 system 0.80 temp 303.6 hbonds, Rg  18.6 A, potential  -589.63
+ 700 / 5000 elapsed  1 system 0.80 temp 302.8 hbonds, Rg  18.1 A, potential  -615.84
+ 700 / 5000 elapsed  3 system 0.80 temp 298.1 hbonds, Rg  17.8 A, potential  -650.86
+ 700 / 5000 elapsed  7 system 0.80 temp 296.4 hbonds, Rg  17.9 A, potential  -585.44
+ 700 / 5000 elapsed  2 system 0.80 temp 304.0 hbonds, Rg  18.0 A, potential  -616.75
+ 700 / 5000 elapsed  4 system 0.80 temp 295.1 hbonds, Rg  18.0 A, potential  -570.43
+ 700 / 5000 elapsed  0 system 0.80 temp 299.8 hbonds, Rg  17.7 A, potential  -635.26
+ 700 / 5000 elapsed  5 system 0.80 temp 300.1 hbonds, Rg  17.9 A, potential  -575.17
+ 550 / 5000 elapsed  6 system 0.80 temp 296.8 hbonds, Rg  18.7 A, potential  -565.58
+ 750 / 5000 elapsed  1 system 0.80 temp 303.4 hbonds, Rg  18.0 A, potential  -564.86
+ 750 / 5000 elapsed  7 system 0.80 temp 300.2 hbonds, Rg  17.8 A, potential  -543.12
+ 750 / 5000 elapsed  2 system 0.80 temp 296.5 hbonds, Rg  18.0 A, potential  -603.82
+ 750 / 5000 elapsed  3 system 0.80 temp 303.1 hbonds, Rg  18.0 A, potential  -563.00
+ 750 / 5000 elapsed  4 system 0.80 temp 288.5 hbonds, Rg  18.1 A, potential  -546.69
+ 750 / 5000 elapsed  0 system 0.80 temp 303.0 hbonds, Rg  18.2 A, potential  -615.55
+ 750 / 5000 elapsed  5 system 0.80 temp 302.2 hbonds, Rg  18.1 A, potential  -592.51
+ 600 / 5000 elapsed  6 system 0.80 temp 301.1 hbonds, Rg  18.5 A, potential  -602.04
+ 800 / 5000 elapsed  1 system 0.80 temp 303.8 hbonds, Rg  18.1 A, potential  -619.76
+ 800 / 5000 elapsed  7 system 0.80 temp 298.8 hbonds, Rg  18.0 A, potential  -554.57
+ 800 / 5000 elapsed  2 system 0.80 temp 298.8 hbonds, Rg  17.9 A, potential  -528.51
+ 800 / 5000 elapsed  3 system 0.80 temp 304.4 hbonds, Rg  17.9 A, potential  -608.65
+ 800 / 5000 elapsed  4 system 0.80 temp 298.1 hbonds, Rg  17.9 A, potential  -593.90
+ 800 / 5000 elapsed  0 system 0.80 temp 304.1 hbonds, Rg  18.4 A, potential  -577.12
+ 800 / 5000 elapsed  5 system 0.80 temp 302.6 hbonds, Rg  18.1 A, potential  -593.10
+ 650 / 5000 elapsed  6 system 0.80 temp 301.7 hbonds, Rg  18.4 A, potential  -575.64
+ 850 / 5000 elapsed  1 system 0.80 temp 300.9 hbonds, Rg  18.0 A, potential  -629.78
+ 850 / 5000 elapsed  7 system 0.80 temp 299.5 hbonds, Rg  18.0 A, potential  -611.59
+ 850 / 5000 elapsed  2 system 0.80 temp 292.3 hbonds, Rg  18.1 A, potential  -556.80
+ 850 / 5000 elapsed  3 system 0.80 temp 302.3 hbonds, Rg  17.8 A, potential  -564.39
+ 850 / 5000 elapsed  4 system 0.80 temp 296.0 hbonds, Rg  18.2 A, potential  -561.57
+ 850 / 5000 elapsed  0 system 0.80 temp 297.2 hbonds, Rg  18.0 A, potential  -600.55
+ 850 / 5000 elapsed  5 system 0.80 temp 303.0 hbonds, Rg  17.9 A, potential  -639.48
+ 700 / 5000 elapsed  6 system 0.80 temp 294.9 hbonds, Rg  18.0 A, potential  -570.06
+ 900 / 5000 elapsed  1 system 0.80 temp 290.9 hbonds, Rg  18.0 A, potential  -591.09
+ 900 / 5000 elapsed  7 system 0.80 temp 297.3 hbonds, Rg  17.9 A, potential  -602.74
+ 900 / 5000 elapsed  2 system 0.80 temp 301.1 hbonds, Rg  18.0 A, potential  -603.62
+ 900 / 5000 elapsed  3 system 0.80 temp 301.2 hbonds, Rg  17.7 A, potential  -609.97
+ 900 / 5000 elapsed  4 system 0.80 temp 291.4 hbonds, Rg  17.9 A, potential  -616.41
+ 900 / 5000 elapsed  0 system 0.80 temp 299.7 hbonds, Rg  18.0 A, potential  -630.58
+ 900 / 5000 elapsed  5 system 0.80 temp 304.3 hbonds, Rg  17.9 A, potential  -571.57
+ 750 / 5000 elapsed  6 system 0.80 temp 301.6 hbonds, Rg  18.0 A, potential  -597.31
+ 950 / 5000 elapsed  1 system 0.80 temp 300.0 hbonds, Rg  18.2 A, potential  -610.09
+ 950 / 5000 elapsed  7 system 0.80 temp 299.5 hbonds, Rg  17.9 A, potential  -588.42
+ 950 / 5000 elapsed  2 system 0.80 temp 295.4 hbonds, Rg  17.8 A, potential  -572.22
+ 950 / 5000 elapsed  4 system 0.80 temp 293.6 hbonds, Rg  17.9 A, potential  -613.17
+ 950 / 5000 elapsed  3 system 0.80 temp 299.3 hbonds, Rg  18.0 A, potential  -578.73
+ 950 / 5000 elapsed  0 system 0.80 temp 297.3 hbonds, Rg  18.0 A, potential  -606.09
+ 950 / 5000 elapsed  5 system 0.80 temp 299.9 hbonds, Rg  17.7 A, potential  -592.49
+ 800 / 5000 elapsed  6 system 0.80 temp 298.9 hbonds, Rg  18.0 A, potential  -591.80
+1000 / 5000 elapsed  1 system 0.80 temp 298.3 hbonds, Rg  18.3 A, potential  -571.38
+1000 / 5000 elapsed  7 system 0.80 temp 298.3 hbonds, Rg  18.0 A, potential  -548.55
+1000 / 5000 elapsed  2 system 0.80 temp 298.5 hbonds, Rg  17.9 A, potential  -547.30
+1000 / 5000 elapsed  4 system 0.80 temp 289.2 hbonds, Rg  18.1 A, potential  -603.85
+1000 / 5000 elapsed  3 system 0.80 temp 297.8 hbonds, Rg  17.9 A, potential  -623.03
+1000 / 5000 elapsed  0 system 0.80 temp 303.6 hbonds, Rg  18.1 A, potential  -582.69
+1000 / 5000 elapsed  5 system 0.80 temp 297.8 hbonds, Rg  17.6 A, potential  -561.44
+ 850 / 5000 elapsed  6 system 0.80 temp 295.4 hbonds, Rg  18.0 A, potential  -593.90
+1050 / 5000 elapsed  1 system 0.80 temp 302.1 hbonds, Rg  18.1 A, potential  -600.51
+1050 / 5000 elapsed  7 system 0.80 temp 294.9 hbonds, Rg  18.0 A, potential  -557.07
+1050 / 5000 elapsed  2 system 0.80 temp 307.4 hbonds, Rg  17.8 A, potential  -626.47
+1050 / 5000 elapsed  4 system 0.80 temp 293.0 hbonds, Rg  18.1 A, potential  -629.91
+1050 / 5000 elapsed  3 system 0.80 temp 299.4 hbonds, Rg  17.9 A, potential  -621.31
+1050 / 5000 elapsed  0 system 0.80 temp 296.6 hbonds, Rg  18.1 A, potential  -616.02
+1050 / 5000 elapsed  5 system 0.80 temp 305.0 hbonds, Rg  17.7 A, potential  -575.95
+ 900 / 5000 elapsed  6 system 0.80 temp 294.5 hbonds, Rg  18.0 A, potential  -557.89
+1100 / 5000 elapsed  1 system 0.80 temp 301.6 hbonds, Rg  18.0 A, potential  -573.96
+1100 / 5000 elapsed  7 system 0.80 temp 306.5 hbonds, Rg  18.2 A, potential  -601.00
+1100 / 5000 elapsed  2 system 0.80 temp 302.0 hbonds, Rg  17.8 A, potential  -546.06
+1100 / 5000 elapsed  3 system 0.80 temp 294.9 hbonds, Rg  17.9 A, potential  -520.26
+1100 / 5000 elapsed  4 system 0.80 temp 291.4 hbonds, Rg  18.0 A, potential  -624.45
+1100 / 5000 elapsed  0 system 0.80 temp 300.7 hbonds, Rg  18.1 A, potential  -628.28
+1100 / 5000 elapsed  5 system 0.80 temp 298.4 hbonds, Rg  17.7 A, potential  -592.01
+ 950 / 5000 elapsed  6 system 0.80 temp 297.8 hbonds, Rg  17.9 A, potential  -574.59
+1150 / 5000 elapsed  1 system 0.80 temp 296.6 hbonds, Rg  18.2 A, potential  -536.54
+1150 / 5000 elapsed  7 system 0.80 temp 301.4 hbonds, Rg  17.9 A, potential  -579.67
+1150 / 5000 elapsed  2 system 0.80 temp 298.3 hbonds, Rg  17.7 A, potential  -554.41
+1150 / 5000 elapsed  3 system 0.80 temp 297.2 hbonds, Rg  17.9 A, potential  -609.44
+1150 / 5000 elapsed  4 system 0.80 temp 292.2 hbonds, Rg  18.1 A, potential  -559.85
+1150 / 5000 elapsed  0 system 0.80 temp 296.6 hbonds, Rg  18.2 A, potential  -610.80
+1150 / 5000 elapsed  5 system 0.80 temp 304.8 hbonds, Rg  17.5 A, potential  -619.50
+1000 / 5000 elapsed  6 system 0.80 temp 297.0 hbonds, Rg  18.0 A, potential  -587.11
+1200 / 5000 elapsed  1 system 0.80 temp 301.0 hbonds, Rg  18.1 A, potential  -605.70
+1200 / 5000 elapsed  7 system 0.80 temp 301.8 hbonds, Rg  17.8 A, potential  -601.79
+1200 / 5000 elapsed  2 system 0.80 temp 298.4 hbonds, Rg  18.1 A, potential  -548.14
+1200 / 5000 elapsed  3 system 0.80 temp 295.0 hbonds, Rg  17.6 A, potential  -584.92
+1200 / 5000 elapsed  4 system 0.80 temp 295.0 hbonds, Rg  18.1 A, potential  -617.68
+1200 / 5000 elapsed  0 system 0.80 temp 302.8 hbonds, Rg  18.3 A, potential  -641.75
+1200 / 5000 elapsed  5 system 0.80 temp 301.7 hbonds, Rg  17.7 A, potential  -583.63
+1050 / 5000 elapsed  6 system 0.80 temp 302.5 hbonds, Rg  17.8 A, potential  -589.56
+1250 / 5000 elapsed  1 system 0.80 temp 301.9 hbonds, Rg  17.9 A, potential  -592.54
+1250 / 5000 elapsed  7 system 0.80 temp 305.7 hbonds, Rg  17.9 A, potential  -635.77
+1250 / 5000 elapsed  2 system 0.80 temp 304.7 hbonds, Rg  17.9 A, potential  -585.39
+1250 / 5000 elapsed  3 system 0.80 temp 310.5 hbonds, Rg  17.7 A, potential  -585.88
+1250 / 5000 elapsed  4 system 0.80 temp 297.8 hbonds, Rg  18.2 A, potential  -596.14
+1250 / 5000 elapsed  0 system 0.80 temp 302.1 hbonds, Rg  18.2 A, potential  -624.12
+1250 / 5000 elapsed  5 system 0.80 temp 294.1 hbonds, Rg  17.8 A, potential  -569.14
+1100 / 5000 elapsed  6 system 0.80 temp 302.4 hbonds, Rg  17.8 A, potential  -601.85
+1300 / 5000 elapsed  1 system 0.80 temp 295.0 hbonds, Rg  17.9 A, potential  -588.57
+1300 / 5000 elapsed  7 system 0.80 temp 301.7 hbonds, Rg  17.9 A, potential  -660.17
+1300 / 5000 elapsed  2 system 0.80 temp 309.4 hbonds, Rg  17.9 A, potential  -560.32
+1300 / 5000 elapsed  3 system 0.80 temp 306.4 hbonds, Rg  17.8 A, potential  -602.35
+1300 / 5000 elapsed  4 system 0.80 temp 298.6 hbonds, Rg  18.3 A, potential  -573.30
+1300 / 5000 elapsed  5 system 0.80 temp 299.0 hbonds, Rg  17.7 A, potential  -605.18
+1300 / 5000 elapsed  0 system 0.80 temp 301.2 hbonds, Rg  18.1 A, potential  -596.69
+1150 / 5000 elapsed  6 system 0.80 temp 305.6 hbonds, Rg  17.9 A, potential  -579.72
+1350 / 5000 elapsed  1 system 0.80 temp 297.0 hbonds, Rg  17.9 A, potential  -562.36
+1350 / 5000 elapsed  7 system 0.80 temp 305.3 hbonds, Rg  18.0 A, potential  -583.05
+1350 / 5000 elapsed  2 system 0.80 temp 297.3 hbonds, Rg  18.0 A, potential  -587.47
+1350 / 5000 elapsed  3 system 0.80 temp 304.4 hbonds, Rg  17.9 A, potential  -581.69
+1350 / 5000 elapsed  4 system 0.80 temp 302.7 hbonds, Rg  18.0 A, potential  -618.39
+1350 / 5000 elapsed  5 system 0.80 temp 297.8 hbonds, Rg  17.7 A, potential  -567.65
+1350 / 5000 elapsed  0 system 0.80 temp 299.3 hbonds, Rg  18.1 A, potential  -571.74
+1200 / 5000 elapsed  6 system 0.80 temp 295.6 hbonds, Rg  17.7 A, potential  -551.81
+1400 / 5000 elapsed  1 system 0.80 temp 291.7 hbonds, Rg  18.0 A, potential  -595.81
+1400 / 5000 elapsed  7 system 0.80 temp 303.9 hbonds, Rg  18.1 A, potential  -580.76
+1400 / 5000 elapsed  2 system 0.80 temp 299.6 hbonds, Rg  17.9 A, potential  -614.67
+1400 / 5000 elapsed  3 system 0.80 temp 304.4 hbonds, Rg  17.8 A, potential  -591.86
+1400 / 5000 elapsed  4 system 0.80 temp 298.5 hbonds, Rg  18.0 A, potential  -594.71
+1400 / 5000 elapsed  5 system 0.80 temp 305.1 hbonds, Rg  17.9 A, potential  -587.70
+1400 / 5000 elapsed  0 system 0.80 temp 298.5 hbonds, Rg  18.2 A, potential  -585.69
+1250 / 5000 elapsed  6 system 0.80 temp 295.9 hbonds, Rg  17.7 A, potential  -570.27
+1450 / 5000 elapsed  1 system 0.80 temp 296.2 hbonds, Rg  18.3 A, potential  -597.48
+1450 / 5000 elapsed  7 system 0.80 temp 298.7 hbonds, Rg  18.0 A, potential  -628.47
+1450 / 5000 elapsed  2 system 0.80 temp 296.0 hbonds, Rg  18.0 A, potential  -598.91
+1450 / 5000 elapsed  3 system 0.80 temp 296.1 hbonds, Rg  18.0 A, potential  -616.24
+1450 / 5000 elapsed  4 system 0.80 temp 288.7 hbonds, Rg  17.8 A, potential  -624.56
+1450 / 5000 elapsed  5 system 0.80 temp 297.6 hbonds, Rg  17.8 A, potential  -572.46
+1450 / 5000 elapsed  0 system 0.80 temp 297.9 hbonds, Rg  18.2 A, potential  -625.97
+1500 / 5000 elapsed  1 system 0.80 temp 296.4 hbonds, Rg  17.9 A, potential  -582.08
+1300 / 5000 elapsed  6 system 0.80 temp 299.9 hbonds, Rg  17.9 A, potential  -540.76
+1500 / 5000 elapsed  7 system 0.80 temp 297.3 hbonds, Rg  18.1 A, potential  -581.91
+1500 / 5000 elapsed  2 system 0.80 temp 298.2 hbonds, Rg  17.9 A, potential  -604.35
+1500 / 5000 elapsed  3 system 0.80 temp 310.8 hbonds, Rg  17.8 A, potential  -593.02
+1500 / 5000 elapsed  4 system 0.80 temp 292.6 hbonds, Rg  17.9 A, potential  -577.61
+1500 / 5000 elapsed  5 system 0.80 temp 296.2 hbonds, Rg  18.0 A, potential  -605.77
+1500 / 5000 elapsed  0 system 0.80 temp 299.8 hbonds, Rg  18.1 A, potential  -590.29
+1350 / 5000 elapsed  6 system 0.80 temp 303.4 hbonds, Rg  17.7 A, potential  -599.19
+1550 / 5000 elapsed  1 system 0.80 temp 292.3 hbonds, Rg  18.3 A, potential  -588.99
+1550 / 5000 elapsed  7 system 0.80 temp 302.6 hbonds, Rg  18.1 A, potential  -623.27
+1550 / 5000 elapsed  2 system 0.80 temp 303.3 hbonds, Rg  17.9 A, potential  -582.26
+1550 / 5000 elapsed  3 system 0.80 temp 304.5 hbonds, Rg  17.7 A, potential  -600.96
+1550 / 5000 elapsed  4 system 0.80 temp 294.4 hbonds, Rg  18.1 A, potential  -555.76
+1550 / 5000 elapsed  5 system 0.80 temp 302.2 hbonds, Rg  17.9 A, potential  -630.01
+1550 / 5000 elapsed  0 system 0.80 temp 299.4 hbonds, Rg  17.9 A, potential  -632.07
+1600 / 5000 elapsed  1 system 0.80 temp 294.3 hbonds, Rg  18.3 A, potential  -551.03
+1400 / 5000 elapsed  6 system 0.80 temp 305.4 hbonds, Rg  18.0 A, potential  -617.42
+1600 / 5000 elapsed  7 system 0.80 temp 312.8 hbonds, Rg  17.9 A, potential  -608.65
+1600 / 5000 elapsed  2 system 0.80 temp 293.7 hbonds, Rg  17.9 A, potential  -596.65
+1600 / 5000 elapsed  3 system 0.80 temp 302.2 hbonds, Rg  17.8 A, potential  -555.95
+1600 / 5000 elapsed  4 system 0.80 temp 295.6 hbonds, Rg  18.4 A, potential  -616.63
+1600 / 5000 elapsed  5 system 0.80 temp 300.7 hbonds, Rg  18.0 A, potential  -624.77
+1600 / 5000 elapsed  0 system 0.80 temp 305.5 hbonds, Rg  18.1 A, potential  -588.25
+1450 / 5000 elapsed  6 system 0.80 temp 294.5 hbonds, Rg  17.9 A, potential  -608.88
+1650 / 5000 elapsed  1 system 0.80 temp 294.7 hbonds, Rg  18.1 A, potential  -571.84
+1650 / 5000 elapsed  7 system 0.80 temp 303.1 hbonds, Rg  18.1 A, potential  -589.17
+1650 / 5000 elapsed  2 system 0.80 temp 304.2 hbonds, Rg  18.1 A, potential  -568.68
+1650 / 5000 elapsed  3 system 0.80 temp 310.2 hbonds, Rg  18.0 A, potential  -644.31
+1650 / 5000 elapsed  4 system 0.80 temp 289.6 hbonds, Rg  18.3 A, potential  -533.06
+1650 / 5000 elapsed  5 system 0.80 temp 301.8 hbonds, Rg  18.0 A, potential  -571.83
+1650 / 5000 elapsed  0 system 0.80 temp 301.6 hbonds, Rg  18.1 A, potential  -565.24
+1500 / 5000 elapsed  6 system 0.80 temp 307.7 hbonds, Rg  17.9 A, potential  -594.96
+1700 / 5000 elapsed  1 system 0.80 temp 301.4 hbonds, Rg  18.0 A, potential  -610.76
+1700 / 5000 elapsed  7 system 0.80 temp 303.6 hbonds, Rg  18.1 A, potential  -629.88
+1700 / 5000 elapsed  2 system 0.80 temp 297.5 hbonds, Rg  17.8 A, potential  -586.66
+1700 / 5000 elapsed  3 system 0.80 temp 312.1 hbonds, Rg  17.8 A, potential  -606.51
+1700 / 5000 elapsed  4 system 0.80 temp 295.0 hbonds, Rg  18.2 A, potential  -610.42
+1700 / 5000 elapsed  5 system 0.80 temp 296.8 hbonds, Rg  17.9 A, potential  -585.18
+1700 / 5000 elapsed  0 system 0.80 temp 298.3 hbonds, Rg  18.3 A, potential  -656.20
+1550 / 5000 elapsed  6 system 0.80 temp 304.3 hbonds, Rg  17.9 A, potential  -601.90
+1750 / 5000 elapsed  1 system 0.80 temp 298.6 hbonds, Rg  18.2 A, potential  -553.89
+1750 / 5000 elapsed  7 system 0.80 temp 299.8 hbonds, Rg  18.0 A, potential  -573.74
+1750 / 5000 elapsed  2 system 0.80 temp 296.7 hbonds, Rg  17.8 A, potential  -590.18
+1750 / 5000 elapsed  4 system 0.80 temp 295.5 hbonds, Rg  18.3 A, potential  -603.00
+1750 / 5000 elapsed  3 system 0.80 temp 298.1 hbonds, Rg  17.9 A, potential  -591.69
+1750 / 5000 elapsed  5 system 0.80 temp 296.3 hbonds, Rg  17.8 A, potential  -558.54
+1750 / 5000 elapsed  0 system 0.80 temp 306.3 hbonds, Rg  18.2 A, potential  -589.18
+1600 / 5000 elapsed  6 system 0.80 temp 298.3 hbonds, Rg  18.0 A, potential  -529.79
+1800 / 5000 elapsed  1 system 0.80 temp 302.4 hbonds, Rg  18.0 A, potential  -557.66
+1800 / 5000 elapsed  7 system 0.80 temp 298.6 hbonds, Rg  18.1 A, potential  -589.37
+1800 / 5000 elapsed  2 system 0.80 temp 300.1 hbonds, Rg  17.8 A, potential  -594.19
+1800 / 5000 elapsed  3 system 0.80 temp 309.1 hbonds, Rg  17.9 A, potential  -557.59
+1800 / 5000 elapsed  4 system 0.80 temp 294.3 hbonds, Rg  18.3 A, potential  -607.57
+1800 / 5000 elapsed  5 system 0.80 temp 292.8 hbonds, Rg  17.8 A, potential  -628.24
+1800 / 5000 elapsed  0 system 0.80 temp 298.1 hbonds, Rg  18.2 A, potential  -596.80
+1650 / 5000 elapsed  6 system 0.80 temp 300.9 hbonds, Rg  17.7 A, potential  -611.66
+1850 / 5000 elapsed  7 system 0.80 temp 301.6 hbonds, Rg  18.3 A, potential  -527.66
+1850 / 5000 elapsed  1 system 0.80 temp 295.8 hbonds, Rg  18.1 A, potential  -617.38
+1850 / 5000 elapsed  2 system 0.80 temp 299.7 hbonds, Rg  17.8 A, potential  -600.40
+1850 / 5000 elapsed  3 system 0.80 temp 314.6 hbonds, Rg  17.9 A, potential  -607.00
+1850 / 5000 elapsed  4 system 0.80 temp 305.2 hbonds, Rg  18.2 A, potential  -589.19
+1850 / 5000 elapsed  5 system 0.80 temp 292.6 hbonds, Rg  17.8 A, potential  -603.31
+1850 / 5000 elapsed  0 system 0.80 temp 305.4 hbonds, Rg  18.3 A, potential  -570.13
+1700 / 5000 elapsed  6 system 0.80 temp 302.0 hbonds, Rg  17.9 A, potential  -600.51
+1900 / 5000 elapsed  1 system 0.80 temp 297.0 hbonds, Rg  18.1 A, potential  -618.30
+1900 / 5000 elapsed  7 system 0.80 temp 298.8 hbonds, Rg  18.2 A, potential  -641.46
+1900 / 5000 elapsed  2 system 0.80 temp 292.8 hbonds, Rg  18.1 A, potential  -575.74
+1900 / 5000 elapsed  4 system 0.80 temp 293.6 hbonds, Rg  18.1 A, potential  -576.32
+1900 / 5000 elapsed  3 system 0.80 temp 299.7 hbonds, Rg  17.7 A, potential  -623.35
+1900 / 5000 elapsed  5 system 0.80 temp 305.0 hbonds, Rg  17.8 A, potential  -583.75
+1900 / 5000 elapsed  0 system 0.80 temp 302.1 hbonds, Rg  18.0 A, potential  -644.75
+1750 / 5000 elapsed  6 system 0.80 temp 298.9 hbonds, Rg  17.7 A, potential  -564.20
+1950 / 5000 elapsed  1 system 0.80 temp 297.8 hbonds, Rg  18.0 A, potential  -600.84
+1950 / 5000 elapsed  7 system 0.80 temp 301.8 hbonds, Rg  18.2 A, potential  -560.80
+1950 / 5000 elapsed  2 system 0.80 temp 299.8 hbonds, Rg  18.2 A, potential  -636.55
+1950 / 5000 elapsed  4 system 0.80 temp 293.2 hbonds, Rg  18.0 A, potential  -593.34
+1950 / 5000 elapsed  3 system 0.80 temp 295.5 hbonds, Rg  17.8 A, potential  -598.96
+1950 / 5000 elapsed  5 system 0.80 temp 302.4 hbonds, Rg  17.7 A, potential  -663.08
+1950 / 5000 elapsed  0 system 0.80 temp 304.2 hbonds, Rg  17.9 A, potential  -604.24
+1800 / 5000 elapsed  6 system 0.80 temp 298.3 hbonds, Rg  17.9 A, potential  -622.67
+2000 / 5000 elapsed  1 system 0.80 temp 298.3 hbonds, Rg  18.0 A, potential  -593.01
+2000 / 5000 elapsed  7 system 0.80 temp 307.5 hbonds, Rg  18.1 A, potential  -581.61
+2000 / 5000 elapsed  2 system 0.80 temp 302.8 hbonds, Rg  18.0 A, potential  -601.86
+2000 / 5000 elapsed  3 system 0.80 temp 307.0 hbonds, Rg  17.9 A, potential  -584.91
+2000 / 5000 elapsed  4 system 0.80 temp 293.3 hbonds, Rg  17.9 A, potential  -600.62
+2000 / 5000 elapsed  5 system 0.80 temp 301.3 hbonds, Rg  17.6 A, potential  -586.61
+2000 / 5000 elapsed  0 system 0.80 temp 300.3 hbonds, Rg  17.8 A, potential  -612.37
+1850 / 5000 elapsed  6 system 0.80 temp 303.8 hbonds, Rg  17.9 A, potential  -623.75
+2050 / 5000 elapsed  1 system 0.80 temp 290.7 hbonds, Rg  17.7 A, potential  -631.49
+2050 / 5000 elapsed  7 system 0.80 temp 306.6 hbonds, Rg  18.0 A, potential  -658.73
+2050 / 5000 elapsed  3 system 0.80 temp 304.8 hbonds, Rg  17.9 A, potential  -612.07
+2050 / 5000 elapsed  4 system 0.80 temp 293.8 hbonds, Rg  18.1 A, potential  -594.95
+2050 / 5000 elapsed  2 system 0.80 temp 301.9 hbonds, Rg  18.1 A, potential  -578.28
+2050 / 5000 elapsed  5 system 0.80 temp 297.4 hbonds, Rg  17.7 A, potential  -607.04
+2050 / 5000 elapsed  0 system 0.80 temp 303.5 hbonds, Rg  18.0 A, potential  -630.19
+1900 / 5000 elapsed  6 system 0.80 temp 303.3 hbonds, Rg  18.2 A, potential  -607.63
+2100 / 5000 elapsed  1 system 0.80 temp 299.2 hbonds, Rg  17.7 A, potential  -593.55
+2100 / 5000 elapsed  7 system 0.80 temp 307.5 hbonds, Rg  18.1 A, potential  -624.64
+2100 / 5000 elapsed  3 system 0.80 temp 305.2 hbonds, Rg  17.8 A, potential  -611.42
+2100 / 5000 elapsed  4 system 0.80 temp 296.0 hbonds, Rg  17.9 A, potential  -558.46
+2100 / 5000 elapsed  2 system 0.80 temp 291.8 hbonds, Rg  18.3 A, potential  -533.39
+2100 / 5000 elapsed  5 system 0.80 temp 293.5 hbonds, Rg  18.0 A, potential  -635.65
+2100 / 5000 elapsed  0 system 0.80 temp 297.3 hbonds, Rg  18.1 A, potential  -633.77
+1950 / 5000 elapsed  6 system 0.80 temp 297.8 hbonds, Rg  18.2 A, potential  -592.88
+2150 / 5000 elapsed  7 system 0.80 temp 306.1 hbonds, Rg  18.0 A, potential  -638.69
+2150 / 5000 elapsed  1 system 0.80 temp 302.8 hbonds, Rg  17.7 A, potential  -625.81
+2150 / 5000 elapsed  3 system 0.80 temp 309.2 hbonds, Rg  17.6 A, potential  -630.79
+2150 / 5000 elapsed  4 system 0.80 temp 299.6 hbonds, Rg  17.9 A, potential  -655.79
+2150 / 5000 elapsed  2 system 0.80 temp 287.7 hbonds, Rg  18.0 A, potential  -611.29
+2150 / 5000 elapsed  5 system 0.80 temp 285.7 hbonds, Rg  17.8 A, potential  -544.59
+2150 / 5000 elapsed  0 system 0.80 temp 300.0 hbonds, Rg  17.9 A, potential  -564.54
+2000 / 5000 elapsed  6 system 0.80 temp 296.0 hbonds, Rg  18.3 A, potential  -585.62
+2200 / 5000 elapsed  7 system 0.80 temp 302.5 hbonds, Rg  18.0 A, potential  -621.08
+2200 / 5000 elapsed  1 system 0.80 temp 301.2 hbonds, Rg  18.0 A, potential  -560.14
+2200 / 5000 elapsed  3 system 0.80 temp 312.1 hbonds, Rg  17.9 A, potential  -628.60
+2200 / 5000 elapsed  2 system 0.80 temp 299.4 hbonds, Rg  18.0 A, potential  -642.81
+2200 / 5000 elapsed  4 system 0.80 temp 300.0 hbonds, Rg  17.7 A, potential  -564.68
+2200 / 5000 elapsed  5 system 0.80 temp 296.0 hbonds, Rg  17.9 A, potential  -631.84
+2200 / 5000 elapsed  0 system 0.80 temp 299.3 hbonds, Rg  17.8 A, potential  -640.82
+2050 / 5000 elapsed  6 system 0.80 temp 298.9 hbonds, Rg  18.2 A, potential  -615.53
+2250 / 5000 elapsed  7 system 0.80 temp 305.3 hbonds, Rg  18.0 A, potential  -603.08
+2250 / 5000 elapsed  1 system 0.80 temp 297.9 hbonds, Rg  17.9 A, potential  -605.86
+2250 / 5000 elapsed  2 system 0.80 temp 296.5 hbonds, Rg  18.1 A, potential  -586.56
+2250 / 5000 elapsed  3 system 0.80 temp 309.3 hbonds, Rg  18.0 A, potential  -619.97
+2250 / 5000 elapsed  4 system 0.80 temp 291.4 hbonds, Rg  17.8 A, potential  -621.57
+2250 / 5000 elapsed  5 system 0.80 temp 297.3 hbonds, Rg  18.0 A, potential  -588.25
+2250 / 5000 elapsed  0 system 0.80 temp 301.0 hbonds, Rg  17.8 A, potential  -542.26
+2100 / 5000 elapsed  6 system 0.80 temp 297.3 hbonds, Rg  18.3 A, potential  -556.48
+2300 / 5000 elapsed  7 system 0.80 temp 315.5 hbonds, Rg  18.2 A, potential  -591.74
+2300 / 5000 elapsed  1 system 0.80 temp 305.2 hbonds, Rg  18.1 A, potential  -626.74
+2300 / 5000 elapsed  3 system 0.80 temp 305.8 hbonds, Rg  17.9 A, potential  -576.46
+2300 / 5000 elapsed  2 system 0.80 temp 296.6 hbonds, Rg  18.2 A, potential  -615.01
+2300 / 5000 elapsed  4 system 0.80 temp 299.2 hbonds, Rg  17.8 A, potential  -615.09
+2300 / 5000 elapsed  5 system 0.80 temp 301.1 hbonds, Rg  17.8 A, potential  -621.41
+2300 / 5000 elapsed  0 system 0.80 temp 296.7 hbonds, Rg  18.1 A, potential  -543.98
+2150 / 5000 elapsed  6 system 0.80 temp 302.1 hbonds, Rg  18.4 A, potential  -611.54
+2350 / 5000 elapsed  7 system 0.80 temp 306.6 hbonds, Rg  18.1 A, potential  -682.33
+2350 / 5000 elapsed  1 system 0.80 temp 285.3 hbonds, Rg  18.2 A, potential  -550.70
+2350 / 5000 elapsed  3 system 0.80 temp 300.8 hbonds, Rg  18.0 A, potential  -576.74
+2350 / 5000 elapsed  2 system 0.80 temp 300.0 hbonds, Rg  18.1 A, potential  -564.23
+2350 / 5000 elapsed  4 system 0.80 temp 295.1 hbonds, Rg  17.9 A, potential  -529.40
+2350 / 5000 elapsed  5 system 0.80 temp 304.3 hbonds, Rg  17.8 A, potential  -617.20
+2350 / 5000 elapsed  0 system 0.80 temp 295.3 hbonds, Rg  18.0 A, potential  -614.48
+2200 / 5000 elapsed  6 system 0.80 temp 294.5 hbonds, Rg  18.3 A, potential  -619.31
+2400 / 5000 elapsed  7 system 0.80 temp 313.5 hbonds, Rg  18.1 A, potential  -628.32
+2400 / 5000 elapsed  1 system 0.80 temp 300.1 hbonds, Rg  18.5 A, potential  -602.67
+2400 / 5000 elapsed  3 system 0.80 temp 305.4 hbonds, Rg  18.0 A, potential  -536.94
+2400 / 5000 elapsed  2 system 0.80 temp 300.0 hbonds, Rg  18.0 A, potential  -662.74
+2400 / 5000 elapsed  4 system 0.80 temp 292.0 hbonds, Rg  18.0 A, potential  -633.33
+2400 / 5000 elapsed  5 system 0.80 temp 297.9 hbonds, Rg  17.8 A, potential  -585.63
+2400 / 5000 elapsed  0 system 0.80 temp 303.6 hbonds, Rg  17.9 A, potential  -600.51
+2250 / 5000 elapsed  6 system 0.80 temp 297.1 hbonds, Rg  18.3 A, potential  -580.49
+2450 / 5000 elapsed  7 system 0.80 temp 301.8 hbonds, Rg  18.1 A, potential  -589.75
+2450 / 5000 elapsed  1 system 0.80 temp 295.1 hbonds, Rg  18.3 A, potential  -599.95
+2450 / 5000 elapsed  3 system 0.80 temp 303.5 hbonds, Rg  18.0 A, potential  -604.55
+2450 / 5000 elapsed  2 system 0.80 temp 294.1 hbonds, Rg  18.0 A, potential  -582.81
+2450 / 5000 elapsed  4 system 0.80 temp 299.3 hbonds, Rg  17.9 A, potential  -628.53
+2450 / 5000 elapsed  5 system 0.80 temp 297.1 hbonds, Rg  17.9 A, potential  -624.72
+2450 / 5000 elapsed  0 system 0.80 temp 296.1 hbonds, Rg  17.9 A, potential  -651.71
+2300 / 5000 elapsed  6 system 0.80 temp 298.9 hbonds, Rg  18.2 A, potential  -592.69
+2500 / 5000 elapsed  7 system 0.80 temp 304.4 hbonds, Rg  18.2 A, potential  -606.90
+2500 / 5000 elapsed  1 system 0.80 temp 300.4 hbonds, Rg  18.0 A, potential  -558.14
+2500 / 5000 elapsed  3 system 0.80 temp 300.0 hbonds, Rg  17.9 A, potential  -585.31
+2500 / 5000 elapsed  2 system 0.80 temp 295.4 hbonds, Rg  18.1 A, potential  -573.11
+2500 / 5000 elapsed  4 system 0.80 temp 300.7 hbonds, Rg  18.0 A, potential  -617.96
+2500 / 5000 elapsed  5 system 0.80 temp 299.9 hbonds, Rg  17.8 A, potential  -626.02
+2500 / 5000 elapsed  0 system 0.80 temp 294.2 hbonds, Rg  18.0 A, potential  -654.73
+2350 / 5000 elapsed  6 system 0.80 temp 299.1 hbonds, Rg  18.3 A, potential  -540.63
+2550 / 5000 elapsed  1 system 0.80 temp 301.0 hbonds, Rg  18.0 A, potential  -557.74
+2550 / 5000 elapsed  7 system 0.80 temp 305.1 hbonds, Rg  18.0 A, potential  -612.36
+2550 / 5000 elapsed  3 system 0.80 temp 302.3 hbonds, Rg  17.8 A, potential  -607.49
+2550 / 5000 elapsed  2 system 0.80 temp 296.4 hbonds, Rg  17.9 A, potential  -579.12
+2550 / 5000 elapsed  4 system 0.80 temp 298.1 hbonds, Rg  17.9 A, potential  -564.91
+2550 / 5000 elapsed  5 system 0.80 temp 301.5 hbonds, Rg  17.7 A, potential  -606.34
+2550 / 5000 elapsed  0 system 0.80 temp 300.2 hbonds, Rg  17.9 A, potential  -623.61
+2400 / 5000 elapsed  6 system 0.80 temp 300.0 hbonds, Rg  18.2 A, potential  -530.76
+2600 / 5000 elapsed  1 system 0.80 temp 299.2 hbonds, Rg  18.2 A, potential  -622.47
+2600 / 5000 elapsed  7 system 0.80 temp 308.1 hbonds, Rg  18.1 A, potential  -632.16
+2600 / 5000 elapsed  3 system 0.80 temp 307.3 hbonds, Rg  17.8 A, potential  -615.28
+2600 / 5000 elapsed  2 system 0.80 temp 298.2 hbonds, Rg  17.9 A, potential  -656.17
+2600 / 5000 elapsed  4 system 0.80 temp 307.0 hbonds, Rg  17.8 A, potential  -633.86
+2600 / 5000 elapsed  5 system 0.80 temp 294.6 hbonds, Rg  17.7 A, potential  -598.37
+2600 / 5000 elapsed  0 system 0.80 temp 301.3 hbonds, Rg  17.9 A, potential  -634.34
+2450 / 5000 elapsed  6 system 0.80 temp 299.4 hbonds, Rg  18.3 A, potential  -581.93
+2650 / 5000 elapsed  1 system 0.80 temp 302.0 hbonds, Rg  18.2 A, potential  -584.65
+2650 / 5000 elapsed  7 system 0.80 temp 309.3 hbonds, Rg  18.1 A, potential  -607.85
+2650 / 5000 elapsed  3 system 0.80 temp 304.6 hbonds, Rg  17.9 A, potential  -577.64
+2650 / 5000 elapsed  4 system 0.80 temp 299.9 hbonds, Rg  17.9 A, potential  -635.20
+2650 / 5000 elapsed  2 system 0.80 temp 305.4 hbonds, Rg  18.0 A, potential  -669.40
+2650 / 5000 elapsed  5 system 0.80 temp 300.1 hbonds, Rg  17.9 A, potential  -576.57
+2650 / 5000 elapsed  0 system 0.80 temp 299.2 hbonds, Rg  17.7 A, potential  -607.15
+2500 / 5000 elapsed  6 system 0.80 temp 302.4 hbonds, Rg  18.3 A, potential  -593.70
+2700 / 5000 elapsed  1 system 0.80 temp 303.8 hbonds, Rg  18.4 A, potential  -562.17
+2700 / 5000 elapsed  7 system 0.80 temp 304.3 hbonds, Rg  18.1 A, potential  -618.76
+2700 / 5000 elapsed  3 system 0.80 temp 304.9 hbonds, Rg  18.0 A, potential  -593.42
+2700 / 5000 elapsed  4 system 0.80 temp 296.1 hbonds, Rg  17.9 A, potential  -655.06
+2700 / 5000 elapsed  2 system 0.80 temp 301.1 hbonds, Rg  18.0 A, potential  -644.70
+2700 / 5000 elapsed  5 system 0.80 temp 295.1 hbonds, Rg  17.9 A, potential  -611.85
+2700 / 5000 elapsed  0 system 0.80 temp 296.3 hbonds, Rg  17.6 A, potential  -592.19
+2550 / 5000 elapsed  6 system 0.80 temp 306.4 hbonds, Rg  18.0 A, potential  -583.19
+2750 / 5000 elapsed  1 system 0.80 temp 302.3 hbonds, Rg  18.0 A, potential  -578.32
+2750 / 5000 elapsed  3 system 0.80 temp 302.9 hbonds, Rg  18.0 A, potential  -578.65
+2750 / 5000 elapsed  7 system 0.80 temp 306.3 hbonds, Rg  17.9 A, potential  -644.47
+2750 / 5000 elapsed  4 system 0.80 temp 297.4 hbonds, Rg  17.9 A, potential  -595.85
+2750 / 5000 elapsed  2 system 0.80 temp 299.2 hbonds, Rg  17.8 A, potential  -603.50
+2750 / 5000 elapsed  5 system 0.80 temp 297.2 hbonds, Rg  18.0 A, potential  -616.74
+2750 / 5000 elapsed  0 system 0.80 temp 304.6 hbonds, Rg  17.8 A, potential  -603.04
+2600 / 5000 elapsed  6 system 0.80 temp 301.8 hbonds, Rg  18.1 A, potential  -596.57
+2800 / 5000 elapsed  1 system 0.80 temp 304.4 hbonds, Rg  18.1 A, potential  -605.84
+2800 / 5000 elapsed  3 system 0.80 temp 301.7 hbonds, Rg  17.9 A, potential  -588.66
+2800 / 5000 elapsed  7 system 0.80 temp 310.7 hbonds, Rg  18.3 A, potential  -610.90
+2800 / 5000 elapsed  4 system 0.80 temp 294.8 hbonds, Rg  18.0 A, potential  -632.97
+2800 / 5000 elapsed  2 system 0.80 temp 297.9 hbonds, Rg  17.9 A, potential  -591.82
+2800 / 5000 elapsed  5 system 0.80 temp 300.8 hbonds, Rg  18.0 A, potential  -602.14
+2800 / 5000 elapsed  0 system 0.80 temp 290.7 hbonds, Rg  17.9 A, potential  -543.50
+2650 / 5000 elapsed  6 system 0.80 temp 293.8 hbonds, Rg  18.2 A, potential  -532.84
+2850 / 5000 elapsed  3 system 0.80 temp 315.6 hbonds, Rg  17.9 A, potential  -631.54
+2850 / 5000 elapsed  1 system 0.80 temp 305.1 hbonds, Rg  18.3 A, potential  -606.31
+2850 / 5000 elapsed  7 system 0.80 temp 306.1 hbonds, Rg  18.2 A, potential  -631.20
+2850 / 5000 elapsed  4 system 0.80 temp 302.1 hbonds, Rg  17.9 A, potential  -632.61
+2850 / 5000 elapsed  2 system 0.80 temp 297.8 hbonds, Rg  17.9 A, potential  -570.91
+2850 / 5000 elapsed  5 system 0.80 temp 303.4 hbonds, Rg  17.9 A, potential  -640.94
+2850 / 5000 elapsed  0 system 0.80 temp 304.4 hbonds, Rg  17.9 A, potential  -577.52
+2700 / 5000 elapsed  6 system 0.80 temp 299.3 hbonds, Rg  18.3 A, potential  -492.20
+2900 / 5000 elapsed  3 system 0.80 temp 297.3 hbonds, Rg  17.9 A, potential  -582.49
+2900 / 5000 elapsed  1 system 0.80 temp 302.7 hbonds, Rg  18.2 A, potential  -611.35
+2900 / 5000 elapsed  7 system 0.80 temp 302.2 hbonds, Rg  18.2 A, potential  -566.71
+2900 / 5000 elapsed  4 system 0.80 temp 296.2 hbonds, Rg  17.8 A, potential  -601.33
+2900 / 5000 elapsed  2 system 0.80 temp 298.0 hbonds, Rg  17.9 A, potential  -613.83
+2900 / 5000 elapsed  5 system 0.80 temp 298.3 hbonds, Rg  18.0 A, potential  -627.68
+2900 / 5000 elapsed  0 system 0.80 temp 305.5 hbonds, Rg  17.9 A, potential  -654.79
+2950 / 5000 elapsed  3 system 0.80 temp 310.9 hbonds, Rg  17.9 A, potential  -638.75
+2750 / 5000 elapsed  6 system 0.80 temp 292.5 hbonds, Rg  18.4 A, potential  -520.19
+2950 / 5000 elapsed  7 system 0.80 temp 316.7 hbonds, Rg  18.1 A, potential  -621.89
+2950 / 5000 elapsed  1 system 0.80 temp 306.8 hbonds, Rg  18.3 A, potential  -575.85
+2950 / 5000 elapsed  4 system 0.80 temp 300.7 hbonds, Rg  17.8 A, potential  -623.24
+2950 / 5000 elapsed  2 system 0.80 temp 303.1 hbonds, Rg  18.1 A, potential  -554.20
+2950 / 5000 elapsed  5 system 0.80 temp 302.2 hbonds, Rg  17.8 A, potential  -552.12
+2950 / 5000 elapsed  0 system 0.80 temp 303.2 hbonds, Rg  18.0 A, potential  -599.93
+3000 / 5000 elapsed  3 system 0.80 temp 297.4 hbonds, Rg  18.1 A, potential  -620.76
+2800 / 5000 elapsed  6 system 0.80 temp 299.7 hbonds, Rg  18.2 A, potential  -597.86
+3000 / 5000 elapsed  7 system 0.80 temp 306.5 hbonds, Rg  18.3 A, potential  -669.20
+3000 / 5000 elapsed  1 system 0.80 temp 304.5 hbonds, Rg  18.2 A, potential  -615.66
+3000 / 5000 elapsed  2 system 0.80 temp 294.5 hbonds, Rg  18.3 A, potential  -613.32
+3000 / 5000 elapsed  4 system 0.80 temp 297.3 hbonds, Rg  18.0 A, potential  -554.36
+3000 / 5000 elapsed  5 system 0.80 temp 293.5 hbonds, Rg  17.8 A, potential  -566.46
+3000 / 5000 elapsed  0 system 0.80 temp 301.6 hbonds, Rg  17.9 A, potential  -590.64
+3050 / 5000 elapsed  3 system 0.80 temp 307.0 hbonds, Rg  18.0 A, potential  -591.32
+2850 / 5000 elapsed  6 system 0.80 temp 300.6 hbonds, Rg  18.5 A, potential  -506.68
+3050 / 5000 elapsed  1 system 0.80 temp 301.0 hbonds, Rg  18.0 A, potential  -632.04
+3050 / 5000 elapsed  7 system 0.80 temp 311.7 hbonds, Rg  18.2 A, potential  -596.61
+3050 / 5000 elapsed  2 system 0.80 temp 293.7 hbonds, Rg  18.3 A, potential  -600.05
+3050 / 5000 elapsed  4 system 0.80 temp 304.4 hbonds, Rg  17.6 A, potential  -622.13
+3050 / 5000 elapsed  0 system 0.80 temp 301.7 hbonds, Rg  17.7 A, potential  -613.35
+3050 / 5000 elapsed  5 system 0.80 temp 307.4 hbonds, Rg  17.8 A, potential  -613.10
+3100 / 5000 elapsed  3 system 0.80 temp 303.4 hbonds, Rg  18.0 A, potential  -584.17
+3100 / 5000 elapsed  1 system 0.80 temp 308.9 hbonds, Rg  18.3 A, potential  -587.39
+2900 / 5000 elapsed  6 system 0.80 temp 305.3 hbonds, Rg  18.3 A, potential  -539.46
+3100 / 5000 elapsed  7 system 0.80 temp 303.6 hbonds, Rg  18.1 A, potential  -645.53
+3100 / 5000 elapsed  2 system 0.80 temp 298.8 hbonds, Rg  18.3 A, potential  -575.53
+3100 / 5000 elapsed  4 system 0.80 temp 303.6 hbonds, Rg  17.7 A, potential  -647.65
+3100 / 5000 elapsed  0 system 0.80 temp 304.3 hbonds, Rg  17.8 A, potential  -633.34
+3100 / 5000 elapsed  5 system 0.80 temp 300.5 hbonds, Rg  17.9 A, potential  -621.70
+3150 / 5000 elapsed  3 system 0.80 temp 306.2 hbonds, Rg  18.0 A, potential  -592.12
+3150 / 5000 elapsed  1 system 0.80 temp 306.4 hbonds, Rg  18.4 A, potential  -556.25
+3150 / 5000 elapsed  7 system 0.80 temp 303.9 hbonds, Rg  18.1 A, potential  -588.44
+2950 / 5000 elapsed  6 system 0.80 temp 303.1 hbonds, Rg  18.3 A, potential  -549.31
+3150 / 5000 elapsed  2 system 0.80 temp 297.0 hbonds, Rg  17.9 A, potential  -578.18
+3150 / 5000 elapsed  4 system 0.80 temp 304.0 hbonds, Rg  17.8 A, potential  -617.79
+3150 / 5000 elapsed  0 system 0.80 temp 304.2 hbonds, Rg  17.6 A, potential  -578.31
+3150 / 5000 elapsed  5 system 0.80 temp 297.0 hbonds, Rg  17.9 A, potential  -569.79
+3200 / 5000 elapsed  3 system 0.80 temp 304.3 hbonds, Rg  17.8 A, potential  -621.64
+3200 / 5000 elapsed  1 system 0.80 temp 307.0 hbonds, Rg  18.3 A, potential  -578.00
+3200 / 5000 elapsed  7 system 0.80 temp 310.6 hbonds, Rg  17.8 A, potential  -656.81
+3000 / 5000 elapsed  6 system 0.80 temp 300.2 hbonds, Rg  18.1 A, potential  -565.09
+3200 / 5000 elapsed  2 system 0.80 temp 295.1 hbonds, Rg  18.1 A, potential  -545.84
+3200 / 5000 elapsed  4 system 0.80 temp 301.3 hbonds, Rg  17.7 A, potential  -599.85
+3200 / 5000 elapsed  0 system 0.80 temp 309.5 hbonds, Rg  17.8 A, potential  -590.76
+3200 / 5000 elapsed  5 system 0.80 temp 300.8 hbonds, Rg  17.9 A, potential  -618.22
+3250 / 5000 elapsed  3 system 0.80 temp 310.3 hbonds, Rg  17.9 A, potential  -616.26
+3250 / 5000 elapsed  1 system 0.80 temp 304.9 hbonds, Rg  18.3 A, potential  -610.73
+3250 / 5000 elapsed  7 system 0.80 temp 290.0 hbonds, Rg  17.9 A, potential  -596.21
+3050 / 5000 elapsed  6 system 0.80 temp 303.7 hbonds, Rg  18.4 A, potential  -592.37
+3250 / 5000 elapsed  4 system 0.80 temp 300.4 hbonds, Rg  17.7 A, potential  -595.95
+3250 / 5000 elapsed  2 system 0.80 temp 296.0 hbonds, Rg  18.1 A, potential  -621.38
+3250 / 5000 elapsed  0 system 0.80 temp 300.4 hbonds, Rg  17.8 A, potential  -592.64
+3250 / 5000 elapsed  5 system 0.80 temp 294.5 hbonds, Rg  17.9 A, potential  -607.16
+3300 / 5000 elapsed  3 system 0.80 temp 302.8 hbonds, Rg  17.8 A, potential  -577.55
+3300 / 5000 elapsed  1 system 0.80 temp 298.9 hbonds, Rg  18.2 A, potential  -568.75
+3300 / 5000 elapsed  7 system 0.80 temp 303.6 hbonds, Rg  18.0 A, potential  -681.83
+3100 / 5000 elapsed  6 system 0.80 temp 304.1 hbonds, Rg  18.1 A, potential  -584.03
+3300 / 5000 elapsed  2 system 0.80 temp 300.9 hbonds, Rg  18.1 A, potential  -601.83
+3300 / 5000 elapsed  4 system 0.80 temp 304.1 hbonds, Rg  17.8 A, potential  -591.96
+3300 / 5000 elapsed  0 system 0.80 temp 295.2 hbonds, Rg  18.1 A, potential  -581.29
+3300 / 5000 elapsed  5 system 0.80 temp 293.2 hbonds, Rg  18.0 A, potential  -582.75
+3350 / 5000 elapsed  3 system 0.80 temp 302.7 hbonds, Rg  18.0 A, potential  -615.77
+3350 / 5000 elapsed  1 system 0.80 temp 303.5 hbonds, Rg  18.3 A, potential  -587.30
+3350 / 5000 elapsed  7 system 0.80 temp 308.3 hbonds, Rg  18.2 A, potential  -631.13
+3150 / 5000 elapsed  6 system 0.80 temp 301.9 hbonds, Rg  18.1 A, potential  -586.52
+3350 / 5000 elapsed  2 system 0.80 temp 298.9 hbonds, Rg  18.0 A, potential  -586.97
+3350 / 5000 elapsed  0 system 0.80 temp 299.9 hbonds, Rg  18.1 A, potential  -564.75
+3350 / 5000 elapsed  4 system 0.80 temp 301.7 hbonds, Rg  17.8 A, potential  -548.95
+3350 / 5000 elapsed  5 system 0.80 temp 302.9 hbonds, Rg  17.9 A, potential  -638.11
+3400 / 5000 elapsed  3 system 0.80 temp 300.9 hbonds, Rg  18.0 A, potential  -578.87
+3400 / 5000 elapsed  1 system 0.80 temp 300.1 hbonds, Rg  18.2 A, potential  -582.83
+3400 / 5000 elapsed  7 system 0.80 temp 299.2 hbonds, Rg  18.1 A, potential  -615.27
+3200 / 5000 elapsed  6 system 0.80 temp 303.7 hbonds, Rg  18.0 A, potential  -575.59
+3400 / 5000 elapsed  2 system 0.80 temp 291.4 hbonds, Rg  18.1 A, potential  -533.88
+3400 / 5000 elapsed  0 system 0.80 temp 302.1 hbonds, Rg  18.2 A, potential  -589.53
+3400 / 5000 elapsed  4 system 0.80 temp 301.1 hbonds, Rg  17.9 A, potential  -612.13
+3400 / 5000 elapsed  5 system 0.80 temp 298.0 hbonds, Rg  17.7 A, potential  -564.15
+3450 / 5000 elapsed  3 system 0.80 temp 304.2 hbonds, Rg  18.0 A, potential  -599.36
+3450 / 5000 elapsed  1 system 0.80 temp 299.5 hbonds, Rg  18.2 A, potential  -662.01
+3450 / 5000 elapsed  7 system 0.80 temp 306.3 hbonds, Rg  18.1 A, potential  -623.79
+3250 / 5000 elapsed  6 system 0.80 temp 304.2 hbonds, Rg  18.1 A, potential  -577.34
+3450 / 5000 elapsed  2 system 0.80 temp 303.1 hbonds, Rg  18.0 A, potential  -594.61
+3450 / 5000 elapsed  0 system 0.80 temp 295.3 hbonds, Rg  18.0 A, potential  -548.28
+3450 / 5000 elapsed  4 system 0.80 temp 305.4 hbonds, Rg  18.1 A, potential  -642.65
+3450 / 5000 elapsed  5 system 0.80 temp 294.4 hbonds, Rg  17.9 A, potential  -591.76
+3500 / 5000 elapsed  3 system 0.80 temp 306.1 hbonds, Rg  18.1 A, potential  -542.50
+3500 / 5000 elapsed  1 system 0.80 temp 299.2 hbonds, Rg  17.9 A, potential  -655.72
+3500 / 5000 elapsed  7 system 0.80 temp 296.0 hbonds, Rg  18.0 A, potential  -617.03
+3300 / 5000 elapsed  6 system 0.80 temp 303.0 hbonds, Rg  18.0 A, potential  -552.98
+3500 / 5000 elapsed  2 system 0.80 temp 299.8 hbonds, Rg  18.0 A, potential  -625.30
+3500 / 5000 elapsed  0 system 0.80 temp 305.8 hbonds, Rg  17.9 A, potential  -588.23
+3500 / 5000 elapsed  4 system 0.80 temp 305.2 hbonds, Rg  18.0 A, potential  -592.73
+3500 / 5000 elapsed  5 system 0.80 temp 295.6 hbonds, Rg  17.7 A, potential  -518.18
+3550 / 5000 elapsed  3 system 0.80 temp 309.7 hbonds, Rg  17.8 A, potential  -626.70
+3550 / 5000 elapsed  1 system 0.80 temp 295.0 hbonds, Rg  18.1 A, potential  -538.72
+3550 / 5000 elapsed  7 system 0.80 temp 305.7 hbonds, Rg  17.9 A, potential  -600.79
+3350 / 5000 elapsed  6 system 0.80 temp 300.6 hbonds, Rg  18.1 A, potential  -571.04
+3550 / 5000 elapsed  2 system 0.80 temp 303.9 hbonds, Rg  18.0 A, potential  -563.51
+3550 / 5000 elapsed  0 system 0.80 temp 299.3 hbonds, Rg  18.2 A, potential  -619.27
+3550 / 5000 elapsed  4 system 0.80 temp 297.8 hbonds, Rg  17.9 A, potential  -620.13
+3550 / 5000 elapsed  5 system 0.80 temp 297.0 hbonds, Rg  17.7 A, potential  -609.84
+3600 / 5000 elapsed  3 system 0.80 temp 309.4 hbonds, Rg  17.8 A, potential  -590.86
+3600 / 5000 elapsed  1 system 0.80 temp 299.0 hbonds, Rg  18.1 A, potential  -575.45
+3600 / 5000 elapsed  7 system 0.80 temp 299.3 hbonds, Rg  18.0 A, potential  -642.42
+3400 / 5000 elapsed  6 system 0.80 temp 307.5 hbonds, Rg  18.1 A, potential  -565.00
+3600 / 5000 elapsed  2 system 0.80 temp 294.6 hbonds, Rg  17.8 A, potential  -570.28
+3600 / 5000 elapsed  0 system 0.80 temp 299.9 hbonds, Rg  18.1 A, potential  -559.77
+3600 / 5000 elapsed  4 system 0.80 temp 302.5 hbonds, Rg  17.9 A, potential  -579.62
+3600 / 5000 elapsed  5 system 0.80 temp 296.0 hbonds, Rg  17.8 A, potential  -596.75
+3650 / 5000 elapsed  3 system 0.80 temp 304.5 hbonds, Rg  18.0 A, potential  -546.99
+3650 / 5000 elapsed  1 system 0.80 temp 299.2 hbonds, Rg  18.3 A, potential  -590.23
+3650 / 5000 elapsed  7 system 0.80 temp 310.2 hbonds, Rg  17.9 A, potential  -645.06
+3450 / 5000 elapsed  6 system 0.80 temp 300.1 hbonds, Rg  18.1 A, potential  -636.00
+3650 / 5000 elapsed  2 system 0.80 temp 300.4 hbonds, Rg  17.9 A, potential  -597.12
+3650 / 5000 elapsed  0 system 0.80 temp 303.1 hbonds, Rg  18.0 A, potential  -563.69
+3650 / 5000 elapsed  4 system 0.80 temp 299.0 hbonds, Rg  18.0 A, potential  -542.89
+3650 / 5000 elapsed  5 system 0.80 temp 304.6 hbonds, Rg  17.8 A, potential  -644.95
+3700 / 5000 elapsed  3 system 0.80 temp 299.2 hbonds, Rg  17.8 A, potential  -564.72
+3700 / 5000 elapsed  1 system 0.80 temp 309.4 hbonds, Rg  17.8 A, potential  -620.12
+3700 / 5000 elapsed  7 system 0.80 temp 303.4 hbonds, Rg  17.9 A, potential  -637.02
+3500 / 5000 elapsed  6 system 0.80 temp 305.8 hbonds, Rg  18.0 A, potential  -569.91
+3700 / 5000 elapsed  2 system 0.80 temp 298.8 hbonds, Rg  18.2 A, potential  -564.33
+3700 / 5000 elapsed  0 system 0.80 temp 299.8 hbonds, Rg  17.9 A, potential  -603.04
+3700 / 5000 elapsed  4 system 0.80 temp 305.6 hbonds, Rg  17.8 A, potential  -602.08
+3700 / 5000 elapsed  5 system 0.80 temp 302.6 hbonds, Rg  17.9 A, potential  -598.77
+3750 / 5000 elapsed  3 system 0.80 temp 297.1 hbonds, Rg  17.7 A, potential  -585.30
+3750 / 5000 elapsed  1 system 0.80 temp 309.1 hbonds, Rg  18.2 A, potential  -576.50
+3750 / 5000 elapsed  7 system 0.80 temp 304.6 hbonds, Rg  17.9 A, potential  -597.49
+3550 / 5000 elapsed  6 system 0.80 temp 296.0 hbonds, Rg  18.1 A, potential  -549.13
+3750 / 5000 elapsed  2 system 0.80 temp 299.3 hbonds, Rg  18.0 A, potential  -596.19
+3750 / 5000 elapsed  0 system 0.80 temp 294.1 hbonds, Rg  17.7 A, potential  -607.27
+3750 / 5000 elapsed  4 system 0.80 temp 304.7 hbonds, Rg  17.9 A, potential  -598.92
+3750 / 5000 elapsed  5 system 0.80 temp 296.3 hbonds, Rg  18.0 A, potential  -591.57
+3800 / 5000 elapsed  3 system 0.80 temp 305.0 hbonds, Rg  17.7 A, potential  -596.41
+3800 / 5000 elapsed  1 system 0.80 temp 294.6 hbonds, Rg  18.0 A, potential  -632.11
+3800 / 5000 elapsed  7 system 0.80 temp 305.5 hbonds, Rg  18.0 A, potential  -613.17
+3600 / 5000 elapsed  6 system 0.80 temp 306.2 hbonds, Rg  18.3 A, potential  -559.71
+3800 / 5000 elapsed  2 system 0.80 temp 294.7 hbonds, Rg  17.9 A, potential  -558.62
+3800 / 5000 elapsed  0 system 0.80 temp 302.1 hbonds, Rg  17.8 A, potential  -572.20
+3800 / 5000 elapsed  4 system 0.80 temp 298.6 hbonds, Rg  18.0 A, potential  -592.74
+3800 / 5000 elapsed  5 system 0.80 temp 299.2 hbonds, Rg  17.9 A, potential  -540.68
+3850 / 5000 elapsed  3 system 0.80 temp 292.6 hbonds, Rg  17.9 A, potential  -485.21
+3850 / 5000 elapsed  1 system 0.80 temp 291.7 hbonds, Rg  18.1 A, potential  -597.63
+3850 / 5000 elapsed  7 system 0.80 temp 302.3 hbonds, Rg  18.0 A, potential  -564.12
+3650 / 5000 elapsed  6 system 0.80 temp 301.5 hbonds, Rg  18.2 A, potential  -579.58
+3850 / 5000 elapsed  2 system 0.80 temp 296.6 hbonds, Rg  18.0 A, potential  -578.81
+3850 / 5000 elapsed  0 system 0.80 temp 306.4 hbonds, Rg  17.8 A, potential  -610.48
+3850 / 5000 elapsed  4 system 0.80 temp 295.7 hbonds, Rg  18.0 A, potential  -602.14
+3850 / 5000 elapsed  5 system 0.80 temp 295.5 hbonds, Rg  17.9 A, potential  -601.70
+3900 / 5000 elapsed  3 system 0.80 temp 302.8 hbonds, Rg  17.8 A, potential  -557.68
+3900 / 5000 elapsed  1 system 0.80 temp 295.8 hbonds, Rg  18.2 A, potential  -604.85
+3900 / 5000 elapsed  7 system 0.80 temp 301.1 hbonds, Rg  17.9 A, potential  -573.02
+3900 / 5000 elapsed  2 system 0.80 temp 302.0 hbonds, Rg  18.1 A, potential  -628.63
+3700 / 5000 elapsed  6 system 0.80 temp 297.9 hbonds, Rg  18.0 A, potential  -563.48
+3900 / 5000 elapsed  0 system 0.80 temp 305.9 hbonds, Rg  17.9 A, potential  -601.45
+3900 / 5000 elapsed  4 system 0.80 temp 300.9 hbonds, Rg  18.1 A, potential  -576.54
+3900 / 5000 elapsed  5 system 0.80 temp 302.6 hbonds, Rg  18.0 A, potential  -595.67
+3950 / 5000 elapsed  3 system 0.80 temp 301.2 hbonds, Rg  17.8 A, potential  -552.37
+3950 / 5000 elapsed  1 system 0.80 temp 290.7 hbonds, Rg  18.4 A, potential  -541.60
+3950 / 5000 elapsed  7 system 0.80 temp 298.2 hbonds, Rg  18.2 A, potential  -609.77
+3950 / 5000 elapsed  2 system 0.80 temp 306.1 hbonds, Rg  18.0 A, potential  -606.31
+3750 / 5000 elapsed  6 system 0.80 temp 296.6 hbonds, Rg  18.0 A, potential  -576.74
+3950 / 5000 elapsed  0 system 0.80 temp 306.5 hbonds, Rg  17.9 A, potential  -634.74
+3950 / 5000 elapsed  4 system 0.80 temp 305.5 hbonds, Rg  17.8 A, potential  -609.08
+3950 / 5000 elapsed  5 system 0.80 temp 295.1 hbonds, Rg  18.1 A, potential  -626.78
+4000 / 5000 elapsed  3 system 0.80 temp 300.2 hbonds, Rg  17.9 A, potential  -608.68
+4000 / 5000 elapsed  1 system 0.80 temp 300.3 hbonds, Rg  18.4 A, potential  -558.73
+4000 / 5000 elapsed  7 system 0.80 temp 310.4 hbonds, Rg  18.1 A, potential  -631.25
+3800 / 5000 elapsed  6 system 0.80 temp 289.5 hbonds, Rg  17.9 A, potential  -583.76
+4000 / 5000 elapsed  2 system 0.80 temp 300.1 hbonds, Rg  18.2 A, potential  -607.76
+4000 / 5000 elapsed  0 system 0.80 temp 309.8 hbonds, Rg  17.7 A, potential  -604.61
+4000 / 5000 elapsed  4 system 0.80 temp 297.2 hbonds, Rg  17.7 A, potential  -659.98
+4000 / 5000 elapsed  5 system 0.80 temp 298.9 hbonds, Rg  18.0 A, potential  -685.59
+4050 / 5000 elapsed  3 system 0.80 temp 306.6 hbonds, Rg  17.7 A, potential  -622.38
+4050 / 5000 elapsed  1 system 0.80 temp 297.3 hbonds, Rg  18.5 A, potential  -572.24
+4050 / 5000 elapsed  7 system 0.80 temp 295.3 hbonds, Rg  18.2 A, potential  -613.48
+3850 / 5000 elapsed  6 system 0.80 temp 301.5 hbonds, Rg  18.1 A, potential  -626.40
+4050 / 5000 elapsed  0 system 0.80 temp 299.9 hbonds, Rg  17.6 A, potential  -595.35
+4050 / 5000 elapsed  2 system 0.80 temp 299.6 hbonds, Rg  18.0 A, potential  -649.67
+4050 / 5000 elapsed  4 system 0.80 temp 298.5 hbonds, Rg  17.9 A, potential  -621.51
+4050 / 5000 elapsed  5 system 0.80 temp 295.2 hbonds, Rg  18.0 A, potential  -591.19
+4100 / 5000 elapsed  3 system 0.80 temp 308.9 hbonds, Rg  17.8 A, potential  -623.12
+4100 / 5000 elapsed  1 system 0.80 temp 298.8 hbonds, Rg  18.4 A, potential  -594.28
+4100 / 5000 elapsed  7 system 0.80 temp 297.8 hbonds, Rg  18.3 A, potential  -575.48
+3900 / 5000 elapsed  6 system 0.80 temp 292.4 hbonds, Rg  18.1 A, potential  -555.15
+4100 / 5000 elapsed  0 system 0.80 temp 303.1 hbonds, Rg  17.7 A, potential  -591.87
+4100 / 5000 elapsed  2 system 0.80 temp 302.4 hbonds, Rg  17.9 A, potential  -660.93
+4100 / 5000 elapsed  5 system 0.80 temp 297.6 hbonds, Rg  18.1 A, potential  -605.84
+4100 / 5000 elapsed  4 system 0.80 temp 299.0 hbonds, Rg  17.9 A, potential  -600.49
+4150 / 5000 elapsed  3 system 0.80 temp 303.7 hbonds, Rg  17.8 A, potential  -573.62
+4150 / 5000 elapsed  1 system 0.80 temp 298.2 hbonds, Rg  18.2 A, potential  -565.93
+4150 / 5000 elapsed  7 system 0.80 temp 306.6 hbonds, Rg  18.2 A, potential  -630.83
+3950 / 5000 elapsed  6 system 0.80 temp 296.4 hbonds, Rg  18.3 A, potential  -564.41
+4150 / 5000 elapsed  0 system 0.80 temp 307.0 hbonds, Rg  17.7 A, potential  -642.60
+4150 / 5000 elapsed  2 system 0.80 temp 300.1 hbonds, Rg  17.9 A, potential  -611.71
+4150 / 5000 elapsed  5 system 0.80 temp 291.9 hbonds, Rg  18.0 A, potential  -607.98
+4150 / 5000 elapsed  4 system 0.80 temp 299.7 hbonds, Rg  17.9 A, potential  -618.94
+4200 / 5000 elapsed  3 system 0.80 temp 299.3 hbonds, Rg  17.8 A, potential  -607.95
+4200 / 5000 elapsed  1 system 0.80 temp 304.5 hbonds, Rg  18.2 A, potential  -576.91
+4200 / 5000 elapsed  7 system 0.80 temp 299.6 hbonds, Rg  18.2 A, potential  -590.78
+4200 / 5000 elapsed  0 system 0.80 temp 305.1 hbonds, Rg  17.8 A, potential  -641.50
+4000 / 5000 elapsed  6 system 0.80 temp 295.7 hbonds, Rg  18.0 A, potential  -574.44
+4200 / 5000 elapsed  2 system 0.80 temp 305.9 hbonds, Rg  17.9 A, potential  -635.72
+4200 / 5000 elapsed  4 system 0.80 temp 296.1 hbonds, Rg  17.7 A, potential  -603.11
+4200 / 5000 elapsed  5 system 0.80 temp 301.4 hbonds, Rg  18.0 A, potential  -610.41
+4250 / 5000 elapsed  3 system 0.80 temp 306.1 hbonds, Rg  17.8 A, potential  -585.12
+4250 / 5000 elapsed  1 system 0.80 temp 305.5 hbonds, Rg  18.4 A, potential  -577.55
+4250 / 5000 elapsed  7 system 0.80 temp 305.0 hbonds, Rg  18.2 A, potential  -627.37
+4050 / 5000 elapsed  6 system 0.80 temp 300.4 hbonds, Rg  18.3 A, potential  -610.71
+4250 / 5000 elapsed  0 system 0.80 temp 301.0 hbonds, Rg  17.8 A, potential  -668.34
+4250 / 5000 elapsed  4 system 0.80 temp 306.7 hbonds, Rg  17.8 A, potential  -627.32
+4250 / 5000 elapsed  2 system 0.80 temp 296.3 hbonds, Rg  18.0 A, potential  -606.52
+4250 / 5000 elapsed  5 system 0.80 temp 304.4 hbonds, Rg  17.9 A, potential  -583.60
+4300 / 5000 elapsed  3 system 0.80 temp 300.4 hbonds, Rg  17.7 A, potential  -563.32
+4300 / 5000 elapsed  1 system 0.80 temp 299.3 hbonds, Rg  18.3 A, potential  -550.06
+4100 / 5000 elapsed  6 system 0.80 temp 299.6 hbonds, Rg  18.1 A, potential  -620.47
+4300 / 5000 elapsed  0 system 0.80 temp 305.0 hbonds, Rg  17.8 A, potential  -631.67
+4300 / 5000 elapsed  7 system 0.80 temp 303.3 hbonds, Rg  18.2 A, potential  -605.05
+4300 / 5000 elapsed  2 system 0.80 temp 301.7 hbonds, Rg  18.0 A, potential  -589.05
+4300 / 5000 elapsed  4 system 0.80 temp 307.2 hbonds, Rg  17.7 A, potential  -668.18
+4300 / 5000 elapsed  5 system 0.80 temp 298.5 hbonds, Rg  18.1 A, potential  -606.78
+4350 / 5000 elapsed  3 system 0.80 temp 300.2 hbonds, Rg  17.8 A, potential  -561.79
+4350 / 5000 elapsed  1 system 0.80 temp 295.9 hbonds, Rg  18.1 A, potential  -551.79
+4150 / 5000 elapsed  6 system 0.80 temp 301.4 hbonds, Rg  18.2 A, potential  -590.11
+4350 / 5000 elapsed  0 system 0.80 temp 300.6 hbonds, Rg  17.7 A, potential  -615.67
+4350 / 5000 elapsed  7 system 0.80 temp 307.1 hbonds, Rg  18.1 A, potential  -615.24
+4350 / 5000 elapsed  2 system 0.80 temp 299.5 hbonds, Rg  17.9 A, potential  -653.46
+4350 / 5000 elapsed  4 system 0.80 temp 308.8 hbonds, Rg  17.8 A, potential  -709.61
+4350 / 5000 elapsed  5 system 0.80 temp 293.2 hbonds, Rg  17.9 A, potential  -581.13
+4400 / 5000 elapsed  3 system 0.80 temp 307.5 hbonds, Rg  17.7 A, potential  -569.64
+4400 / 5000 elapsed  1 system 0.80 temp 301.9 hbonds, Rg  18.1 A, potential  -609.03
+4200 / 5000 elapsed  6 system 0.80 temp 291.9 hbonds, Rg  18.1 A, potential  -569.17
+4400 / 5000 elapsed  0 system 0.80 temp 303.1 hbonds, Rg  17.9 A, potential  -619.44
+4400 / 5000 elapsed  4 system 0.80 temp 292.3 hbonds, Rg  17.9 A, potential  -582.48
+4400 / 5000 elapsed  7 system 0.80 temp 302.2 hbonds, Rg  18.3 A, potential  -572.77
+4400 / 5000 elapsed  2 system 0.80 temp 297.0 hbonds, Rg  17.9 A, potential  -614.93
+4400 / 5000 elapsed  5 system 0.80 temp 300.6 hbonds, Rg  17.7 A, potential  -652.93
+4450 / 5000 elapsed  3 system 0.80 temp 304.9 hbonds, Rg  17.9 A, potential  -567.97
+4450 / 5000 elapsed  1 system 0.80 temp 303.9 hbonds, Rg  18.0 A, potential  -518.14
+4250 / 5000 elapsed  6 system 0.80 temp 292.5 hbonds, Rg  18.1 A, potential  -568.30
+4450 / 5000 elapsed  0 system 0.80 temp 296.2 hbonds, Rg  18.0 A, potential  -597.33
+4450 / 5000 elapsed  2 system 0.80 temp 299.7 hbonds, Rg  18.0 A, potential  -651.79
+4450 / 5000 elapsed  7 system 0.80 temp 298.1 hbonds, Rg  18.5 A, potential  -590.52
+4450 / 5000 elapsed  4 system 0.80 temp 303.8 hbonds, Rg  17.8 A, potential  -595.75
+4450 / 5000 elapsed  5 system 0.80 temp 305.6 hbonds, Rg  17.9 A, potential  -626.30
+4500 / 5000 elapsed  3 system 0.80 temp 302.2 hbonds, Rg  17.8 A, potential  -544.28
+4500 / 5000 elapsed  1 system 0.80 temp 293.9 hbonds, Rg  18.3 A, potential  -565.74
+4300 / 5000 elapsed  6 system 0.80 temp 301.4 hbonds, Rg  18.2 A, potential  -577.33
+4500 / 5000 elapsed  0 system 0.80 temp 297.4 hbonds, Rg  17.9 A, potential  -606.17
+4500 / 5000 elapsed  2 system 0.80 temp 301.6 hbonds, Rg  18.1 A, potential  -616.19
+4500 / 5000 elapsed  7 system 0.80 temp 299.4 hbonds, Rg  18.1 A, potential  -584.12
+4500 / 5000 elapsed  4 system 0.80 temp 292.9 hbonds, Rg  17.9 A, potential  -656.06
+4500 / 5000 elapsed  5 system 0.80 temp 302.0 hbonds, Rg  17.8 A, potential  -548.41
+4550 / 5000 elapsed  3 system 0.80 temp 300.6 hbonds, Rg  17.9 A, potential  -552.55
+4550 / 5000 elapsed  1 system 0.80 temp 295.3 hbonds, Rg  18.2 A, potential  -528.28
+4550 / 5000 elapsed  0 system 0.80 temp 297.0 hbonds, Rg  17.8 A, potential  -605.40
+4350 / 5000 elapsed  6 system 0.80 temp 300.9 hbonds, Rg  18.0 A, potential  -572.34
+4550 / 5000 elapsed  2 system 0.80 temp 302.6 hbonds, Rg  17.9 A, potential  -605.81
+4550 / 5000 elapsed  4 system 0.80 temp 297.8 hbonds, Rg  17.9 A, potential  -606.96
+4550 / 5000 elapsed  5 system 0.80 temp 297.7 hbonds, Rg  17.8 A, potential  -599.37
+4550 / 5000 elapsed  7 system 0.80 temp 301.7 hbonds, Rg  18.1 A, potential  -630.64
+4600 / 5000 elapsed  3 system 0.80 temp 297.9 hbonds, Rg  18.0 A, potential  -563.70
+4600 / 5000 elapsed  1 system 0.80 temp 303.9 hbonds, Rg  18.4 A, potential  -590.13
+4400 / 5000 elapsed  6 system 0.80 temp 301.2 hbonds, Rg  18.0 A, potential  -593.88
+4600 / 5000 elapsed  0 system 0.80 temp 300.4 hbonds, Rg  17.9 A, potential  -612.00
+4600 / 5000 elapsed  2 system 0.80 temp 293.2 hbonds, Rg  18.1 A, potential  -574.36
+4600 / 5000 elapsed  4 system 0.80 temp 303.0 hbonds, Rg  17.9 A, potential  -628.83
+4600 / 5000 elapsed  5 system 0.80 temp 304.2 hbonds, Rg  17.8 A, potential  -568.79
+4600 / 5000 elapsed  7 system 0.80 temp 304.4 hbonds, Rg  18.1 A, potential  -608.61
+4650 / 5000 elapsed  3 system 0.80 temp 302.8 hbonds, Rg  17.9 A, potential  -585.86
+4650 / 5000 elapsed  1 system 0.80 temp 295.1 hbonds, Rg  18.1 A, potential  -612.19
+4450 / 5000 elapsed  6 system 0.80 temp 302.6 hbonds, Rg  18.1 A, potential  -594.60
+4650 / 5000 elapsed  0 system 0.80 temp 299.0 hbonds, Rg  17.8 A, potential  -605.06
+4650 / 5000 elapsed  4 system 0.80 temp 295.5 hbonds, Rg  17.9 A, potential  -642.47
+4650 / 5000 elapsed  2 system 0.80 temp 301.2 hbonds, Rg  17.9 A, potential  -591.06
+4650 / 5000 elapsed  5 system 0.80 temp 301.4 hbonds, Rg  17.9 A, potential  -578.74
+4650 / 5000 elapsed  7 system 0.80 temp 309.0 hbonds, Rg  17.9 A, potential  -623.03
+4700 / 5000 elapsed  3 system 0.80 temp 302.5 hbonds, Rg  18.0 A, potential  -553.73
+4700 / 5000 elapsed  1 system 0.80 temp 303.7 hbonds, Rg  18.2 A, potential  -567.40
+4500 / 5000 elapsed  6 system 0.80 temp 296.5 hbonds, Rg  18.1 A, potential  -612.56
+4700 / 5000 elapsed  0 system 0.80 temp 292.6 hbonds, Rg  17.7 A, potential  -600.73
+4700 / 5000 elapsed  4 system 0.80 temp 300.7 hbonds, Rg  17.9 A, potential  -600.14
+4700 / 5000 elapsed  2 system 0.80 temp 297.5 hbonds, Rg  18.1 A, potential  -604.72
+4700 / 5000 elapsed  5 system 0.80 temp 299.8 hbonds, Rg  17.6 A, potential  -617.58
+4700 / 5000 elapsed  7 system 0.80 temp 301.4 hbonds, Rg  18.2 A, potential  -629.75
+4750 / 5000 elapsed  3 system 0.80 temp 313.9 hbonds, Rg  18.0 A, potential  -604.05
+4750 / 5000 elapsed  1 system 0.80 temp 296.9 hbonds, Rg  18.3 A, potential  -596.54
+4550 / 5000 elapsed  6 system 0.80 temp 299.3 hbonds, Rg  18.2 A, potential  -618.06
+4750 / 5000 elapsed  0 system 0.80 temp 301.7 hbonds, Rg  17.9 A, potential  -600.09
+4750 / 5000 elapsed  4 system 0.80 temp 291.7 hbonds, Rg  17.8 A, potential  -606.11
+4750 / 5000 elapsed  2 system 0.80 temp 298.4 hbonds, Rg  18.0 A, potential  -657.97
+4750 / 5000 elapsed  5 system 0.80 temp 290.6 hbonds, Rg  18.0 A, potential  -567.46
+4750 / 5000 elapsed  7 system 0.80 temp 310.2 hbonds, Rg  17.9 A, potential  -616.59
+4800 / 5000 elapsed  3 system 0.80 temp 299.9 hbonds, Rg  18.2 A, potential  -541.83
+4800 / 5000 elapsed  1 system 0.80 temp 301.8 hbonds, Rg  18.4 A, potential  -602.86
+4600 / 5000 elapsed  6 system 0.80 temp 293.5 hbonds, Rg  18.3 A, potential  -576.34
+4800 / 5000 elapsed  4 system 0.80 temp 304.0 hbonds, Rg  18.0 A, potential  -609.45
+4800 / 5000 elapsed  0 system 0.80 temp 299.0 hbonds, Rg  17.8 A, potential  -590.84
+4800 / 5000 elapsed  2 system 0.80 temp 307.4 hbonds, Rg  17.9 A, potential  -674.20
+4800 / 5000 elapsed  5 system 0.80 temp 299.1 hbonds, Rg  18.1 A, potential  -580.63
+4800 / 5000 elapsed  7 system 0.80 temp 302.4 hbonds, Rg  17.8 A, potential  -594.00
+4850 / 5000 elapsed  3 system 0.80 temp 309.3 hbonds, Rg  18.1 A, potential  -625.94
+4850 / 5000 elapsed  1 system 0.80 temp 301.2 hbonds, Rg  18.2 A, potential  -580.78
+4650 / 5000 elapsed  6 system 0.80 temp 297.4 hbonds, Rg  18.4 A, potential  -559.94
+4850 / 5000 elapsed  4 system 0.80 temp 297.6 hbonds, Rg  18.0 A, potential  -589.14
+4850 / 5000 elapsed  0 system 0.80 temp 298.7 hbonds, Rg  17.7 A, potential  -631.31
+4850 / 5000 elapsed  5 system 0.80 temp 298.7 hbonds, Rg  18.1 A, potential  -576.18
+4850 / 5000 elapsed  2 system 0.80 temp 304.4 hbonds, Rg  18.0 A, potential  -590.44
+4850 / 5000 elapsed  7 system 0.80 temp 315.4 hbonds, Rg  18.1 A, potential  -606.57
+4900 / 5000 elapsed  3 system 0.80 temp 303.8 hbonds, Rg  18.0 A, potential  -599.87
+4900 / 5000 elapsed  1 system 0.80 temp 306.2 hbonds, Rg  18.2 A, potential  -608.87
+4700 / 5000 elapsed  6 system 0.80 temp 298.1 hbonds, Rg  18.1 A, potential  -582.31
+4900 / 5000 elapsed  4 system 0.80 temp 303.2 hbonds, Rg  17.9 A, potential  -669.24
+4900 / 5000 elapsed  5 system 0.80 temp 293.5 hbonds, Rg  18.3 A, potential  -566.59
+4900 / 5000 elapsed  2 system 0.80 temp 303.5 hbonds, Rg  18.0 A, potential  -627.21
+4900 / 5000 elapsed  0 system 0.80 temp 308.3 hbonds, Rg  17.8 A, potential  -566.06
+4900 / 5000 elapsed  7 system 0.80 temp 302.2 hbonds, Rg  17.9 A, potential  -602.95
+4950 / 5000 elapsed  3 system 0.80 temp 308.8 hbonds, Rg  18.1 A, potential  -605.51
+4950 / 5000 elapsed  1 system 0.80 temp 310.8 hbonds, Rg  18.2 A, potential  -631.66
+4750 / 5000 elapsed  6 system 0.80 temp 304.0 hbonds, Rg  18.0 A, potential  -616.51
+4950 / 5000 elapsed  4 system 0.80 temp 305.9 hbonds, Rg  17.7 A, potential  -619.84
+4950 / 5000 elapsed  5 system 0.80 temp 301.3 hbonds, Rg  18.3 A, potential  -556.58
+4950 / 5000 elapsed  2 system 0.80 temp 305.5 hbonds, Rg  18.0 A, potential  -633.63
+4950 / 5000 elapsed  0 system 0.80 temp 294.7 hbonds, Rg  17.8 A, potential  -567.48
+4950 / 5000 elapsed  7 system 0.80 temp 305.3 hbonds, Rg  17.9 A, potential  -677.45
+4800 / 5000 elapsed  6 system 0.80 temp 293.6 hbonds, Rg  18.0 A, potential  -611.02
+4850 / 5000 elapsed  6 system 0.80 temp 299.0 hbonds, Rg  18.0 A, potential  -593.25
+4900 / 5000 elapsed  6 system 0.80 temp 296.0 hbonds, Rg  18.1 A, potential  -569.75
+4950 / 5000 elapsed  6 system 0.80 temp 294.4 hbonds, Rg  18.1 A, potential  -627.23
+
+
+finished in 13307.2 seconds (2994.12 us/systems/step, 1.4e+03 simulation_time_unit/hour)
+
+avg_kinetic_energy/1.5kT  1.006  1.003  1.010  1.012  1.010  1.014  1.013  1.001
+Warning: no previous trajectory file .//outputs/lateral_test/1qhj.run.0.up!
+set "continue_sim = False" and start a new simulation
+Initial structure gen...
+python /home/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/py/PDB_to_initial_structure.py ./pdb/1qhj.pdb .//inputs/1qhj --record-chain-breaks --disable-recentering 
+Configuring...
+Config commandline options:
+/home/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/py/upside_config.py --fasta=.//inputs/1qhj.fasta --output=.//inputs/1qhj.up --initial-structure=.//inputs/1qhj.initial.npy --rama-library=/home/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/parameters/common/rama.dat --rama-sheet-mixing-energy=/home/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/parameters/ff_2.1/sheet --hbond-energy=/home/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/parameters/ff_2.1/hbond.h5 --reference-state-rama=/home/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/parameters/common/rama_reference.pkl --rotamer-placement=/home/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/parameters/ff_2.1/sidechain.h5 --dynamic-rotamer-1body --rotamer-interaction=/home/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/parameters/ff_2.1/sidechain.h5 --environment-potential=/home/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/parameters/ff_2.1/environment.h5 --bb-environment-potential=/home/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/parameters/ff_2.1/bb_env.dat --chain-break-from-file=.//inputs/1qhj.chain_breaks --surface --membrane-potential=/home/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/parameters/ff_2.1/membrane.h5 --membrane-thickness=31.800000 --membrane-lateral-potential=lateral.dat
+
+n_chains: 1
+
+hbond, 218 donors, 227 acceptors in sequence
+0 1000.0 1.0
+
+
+Running...
+"/home/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/obj/upside" --duration 5000 --frame-interval 50 --temperature 0.7999999999999999,0.7999999999999999,0.7999999999999999,0.7999999999999999,0.7999999999999999,0.7999999999999999,0.7999999999999999,0.7999999999999999 --seed 1 --disable-z-recentering  .//outputs/lateral_test/1qhj.run.0.up .//outputs/lateral_test/1qhj.run.1.up .//outputs/lateral_test/1qhj.run.2.up .//outputs/lateral_test/1qhj.run.3.up .//outputs/lateral_test/1qhj.run.4.up .//outputs/lateral_test/1qhj.run.5.up .//outputs/lateral_test/1qhj.run.6.up .//outputs/lateral_test/1qhj.run.7.up

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/media/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/example/06.PullingSimulation/1.get_force.py", line 19, in <module>
+    AFM_table  = sys.argv[1]
+                 ~~~~~~~~^^^
+IndexError: list index out of range

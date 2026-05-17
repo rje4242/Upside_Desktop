@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "/media/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/example/12.MultistepIntegrator/calc_rmsd.py", line 7, in <module>
+    re = mu.load_upside_ref(ref_file) # load the structure of the input
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/py/mdtraj_upside.py", line 230, in load_upside_ref
+    with tb.open_file(fname) as t:
+         ^^^^^^^^^^^^^^^^^^^
+  File "/media/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/.venv/lib/python3.11/site-packages/tables/file.py", line 325, in open_file
+    return File(filename, mode, title, root_uep, filters, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/.venv/lib/python3.11/site-packages/tables/file.py", line 811, in __init__
+    self._g_new(filename, mode, **params)
+  File "tables/hdf5extension.pyx", line 499, in tables.hdf5extension.File._g_new
+  File "/media/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/.venv/lib/python3.11/site-packages/tables/utils.py", line 172, in check_file_access
+    raise FileNotFoundError(f"``{path}`` does not exist")
+FileNotFoundError: ``/media/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/example/12.MultistepIntegrator/inputs/chig.up`` does not exist
+Traceback (most recent call last):
+  File "/home/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/py/extract_vtf.py", line 167, in <module>
+    main()
+  File "/home/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/py/extract_vtf.py", line 133, in main
+    with tables.open_file(top_file) as t:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/.venv/lib/python3.11/site-packages/tables/file.py", line 325, in open_file
+    return File(filename, mode, title, root_uep, filters, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/.venv/lib/python3.11/site-packages/tables/file.py", line 811, in __init__
+    self._g_new(filename, mode, **params)
+  File "tables/hdf5extension.pyx", line 499, in tables.hdf5extension.File._g_new
+  File "/media/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/.venv/lib/python3.11/site-packages/tables/utils.py", line 172, in check_file_access
+    raise FileNotFoundError(f"``{path}`` does not exist")
+FileNotFoundError: ``/media/nithin/data2/nithin/codex_work/resilient_interface/Upside_Desktop/example/12.MultistepIntegrator/outputs/simple_test/chig.run.up`` does not exist
