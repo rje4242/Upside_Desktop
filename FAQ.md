@@ -2,8 +2,6 @@
 
 This FAQ summarizes behavior demonstrated by this repository. It distinguishes
 implemented behavior from proposed workflows and scientific interpretation.
-Where the available evidence is incomplete, the issue is listed under
-[Expert Discussion Questions](#expert-discussion-questions).
 
 ## PDB Input
 
@@ -65,8 +63,8 @@ Evidence: [residue filtering](py/PDB_to_initial_structure.py#L47-L59).
 The input workflow has no documented selectable protonation variants or
 histidine-tautomer controls. It recognizes generic residue types such as ASP,
 GLU, and HIS, while the generated dynamical coordinates contain only N, CA, and
-C. A validated protocol for mapping target-specific protonation choices into
-Upside was not found; see the expert discussion section.
+C. The repository does not provide a validated protocol for mapping
+target-specific protonation choices into Upside.
 
 Evidence: [residue definitions](py/PDB_to_initial_structure.py#L14-L28);
 [coordinate output](README.md#converting-a-pdb-file-to-upside-input).
@@ -441,58 +439,6 @@ Run a falsification-oriented blinded pilot before expanding the product:
 
 Evidence: [retrospective validation](CRYPTIC_POCKET_WORKFLOW.md#8-retrospective-validation);
 [failure interpretation](CRYPTIC_POCKET_WORKFLOW.md#interpreting-failure).
-
-## Expert Discussion Questions
-
-These questions remain open because this repository does not provide enough
-evidence for a definitive answer.
-
-### PDB preparation and representation
-
-1. How should target-specific protonation states and histidine tautomers be
-   represented, calibrated, and validated in an Upside model?
-2. How does the supported ProDy version select alternate locations, and what
-   preprocessing policy should be standardized for reproducible Upside input?
-3. How do all tutorial coordinate files differ structurally and
-   record-by-record from the current authoritative RCSB entries, and which
-   modifications are scientifically intentional?
-
-### Output and interoperability
-
-4. What tested procedure should be adopted for exporting `.up` trajectories to
-   DCD and XTC while preserving topology, chains, units, restart continuity, and
-   reconstructed-atom semantics?
-5. What PyMOL workflow should be officially supported, and which reconstructed
-   atoms should be included or excluded for each visualization purpose?
-6. What full-atom reconstruction method best preserves Upside backbone
-   ensembles without introducing misleading pocket geometry?
-
-### Thermodynamics and pocket interpretation
-
-7. How should Upside natural temperatures and energies be calibrated before
-   reporting physical thermodynamic units?
-8. What explicit model, standard-state corrections, and validation would be
-   required before estimating protein-protein or ligand-binding constants from
-   Upside?
-9. Which target-specific collective variables most reliably distinguish local
-   pocket opening from global expansion or unfolding?
-10. What sampling, weighting, autocorrelation, and uncertainty protocol would
-    support a defensible equilibrium pocket-state probability?
-11. How should convergence be diagnosed when replica exchange improves mixing
-    but independent seeds produce different pocket populations?
-
-### Product validation
-
-12. Across which protein sizes, folds, oligomeric states, and membrane classes
-    does the current force field reproduce experimentally observed
-    conformational ensembles?
-13. Which benchmark panel, negative controls, competing methods, and
-    preregistered thresholds would establish a credible operating domain?
-14. Which wet-lab measurements provide the fastest and most discriminating test
-    of Upside-generated conformational hypotheses?
-15. What prospective decision would a wet-lab group change based on an Upside
-    result, and what accuracy, turnaround time, and uncertainty would that
-    decision require?
 
 ## External References
 
