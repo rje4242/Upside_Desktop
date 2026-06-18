@@ -310,6 +310,12 @@ Produce one row per consolidated site:
 Before prospective use, benchmark one protein with experimentally determined
 apo and holo structures and a known cryptic pocket.
 
+For a broader one-year proof of concept with frozen biological answer keys,
+target-specific success criteria, and force-positive controls, use
+[`SCIENCE_DRIVEN_POC_PLAN.md`](SCIENCE_DRIVEN_POC_PLAN.md). That companion
+plan treats KRAS G12C, PI3K-alpha, MYC, talin-vinculin, and latent TGF-beta1
+as explicit recovery tests rather than generic pocket-discovery examples.
+
 ### Blind protocol
 
 1. Prepare only the apo structure and record the known holo structure with the
