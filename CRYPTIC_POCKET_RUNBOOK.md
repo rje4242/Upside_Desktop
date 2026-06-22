@@ -2,12 +2,41 @@
 
 ## Required Tools Summary
 
-### OS and shell
+### Cryptic-pocket workflow tools
+
+These tools are not included in this repository and must be installed,
+version-pinned, and validated separately before use.
+
+- [PocketMiner web interface](https://pocketminer.azurewebsites.net/) or
+  [PocketMiner code](https://github.com/Mickdub/gvp/tree/pocket_pred): fast
+  baseline cryptic-pocket prior from the starting structure.
+- Reconstruction and side-chain packing options, selected as a documented
+  integration choice: [MODELLER](https://www.salilab.org/modeller/),
+  [PDBFixer](https://github.com/openmm/pdbfixer), or PULCHRA/SCWRL-style tools
+  if they have been locally validated for the target workflow.
+- Molecular minimization options, selected as a documented integration choice:
+  [OpenMM](https://openmm.org/) or [OpenMM GitHub](https://github.com/openmm/openmm),
+  or another MD/minimization engine such as GROMACS or AMBER if already used by
+  the lab.
+- [fpocket and mdpocket](https://github.com/Discngine/fpocket): `fpocket`
+  detects pockets on individual atomistic structures; `mdpocket` characterizes
+  pockets across atomistic ensembles.
+- [VMD](https://www.ks.uiuc.edu/Research/vmd/): visual inspection of structures
+  and trajectories.
+
+Reconstruction and minimization tools are selectable integration choices, not
+repo-integrated defaults. Pin versions, record command-line settings, and apply
+the same reconstruction and minimization procedure to apo controls and sampled
+frames.
+
+### Supporting infrastructure
+
+#### OS and shell
 
 - Linux or macOS.
 - `bash` and standard Unix command-line tools.
 
-### Build stack
+#### Build stack
 
 - CMake.
 - `make`.
@@ -16,13 +45,13 @@
 - Eigen 3.
 - OpenMP support.
 
-### Python
+#### Python
 
 - Python 3.11 preferred.
 - `venv` or `virtualenv`.
 - `pip`.
 
-### Python packages
+#### Python packages
 
 - `numpy`
 - `scipy`
@@ -39,61 +68,32 @@
 - `pyhdx==0.4.3`
 - `hdxms-datasets<0.2`
 
-### Upside repository setup
+#### Upside repository setup
 
 - `install_python_env.sh`
 - `install.sh`
 - `source.sh`
 
-### External cryptic-pocket tools
+#### Optional infrastructure
 
-These are not included in this repository and must be installed, versioned, and
-validated separately.
-
-- PocketMiner, or an equivalent single-structure baseline cryptic-pocket
-  predictor.
-- All-atom reconstruction and side-chain packing tool.
-- Molecular minimization engine.
-- `fpocket`.
-- `MDpocket`.
-
-### Optional tools
-
-- VMD for visualization.
 - SLURM for cluster execution.
 
 ## What Each Tool Is Used For
 
-- Linux/macOS, `bash`, and Unix tools: run the build, simulation, filtering,
-  and file-management commands.
-- CMake, `make`, C++11 compiler, HDF5, Eigen, and OpenMP: compile and run the
-  Upside executable and shared library.
-- Python 3.11, `venv`, and `pip`: create the repository Python environment.
-- `numpy`, `scipy`, `tables`, and `h5py`: handle numerical arrays and HDF5
-  Upside files.
-- `ProDy`: read and prepare PDB structures.
-- `pandas`, `matplotlib`, and `scikit-learn`: assemble tables, plots, and
-  clustering or ranking features.
-- `mdtraj`: load, filter, and analyze trajectories.
-- `pymbar`: support optional REMD reweighting analysis.
-- `jax`: support Python workflows that depend on accelerated array operations.
-- `colorcet`, `pyhdx==0.4.3`, and `hdxms-datasets<0.2`: support optional HDX
-  analysis workflows present in this repository.
-- `install_python_env.sh`: create the repo-local `.venv` and install Python
-  packages.
-- `install.sh`: compile Upside.
-- `source.sh`: set `UPSIDE_HOME`, activate `.venv`, and update `PATH` and
-  `PYTHONPATH`.
-- PocketMiner or equivalent: provide a fast baseline cryptic-pocket prior from
-  the starting structure.
-- Reconstruction and side-chain packing: convert accepted coarse-grained
-  Upside frames to complete atomistic structures.
-- Molecular minimization: relax reconstructed structures while checking that
-  the sampled conformation is not erased.
-- `fpocket`: detect pockets on individual atomistic structures.
-- `MDpocket`: characterize pockets across an ensemble of atomistic structures.
-- VMD: inspect structures and trajectories visually.
-- SLURM: run larger REMD jobs on a cluster.
+| Tool | Install/source link | Required? | Used for |
+| --- | --- | --- | --- |
+| PocketMiner | [Web interface](https://pocketminer.azurewebsites.net/) / [code](https://github.com/Mickdub/gvp/tree/pocket_pred) | Recommended baseline | Provide a fast baseline cryptic-pocket prior from the starting structure. |
+| Reconstruction and side-chain packing | [MODELLER](https://www.salilab.org/modeller/), [PDBFixer](https://github.com/openmm/pdbfixer), or locally validated PULCHRA/SCWRL-style tools | Required for atomistic pocket detection on Upside frames | Convert accepted coarse-grained Upside frames to complete atomistic structures. |
+| Molecular minimization | [OpenMM](https://openmm.org/) / [GitHub](https://github.com/openmm/openmm), or a documented lab-standard engine such as GROMACS or AMBER | Required after reconstruction | Relax reconstructed structures while checking that the sampled conformation is not erased. |
+| `fpocket` | [fpocket repository](https://github.com/Discngine/fpocket) | Required for per-frame pocket calls | Detect pockets on individual atomistic structures. |
+| `mdpocket` | [fpocket repository](https://github.com/Discngine/fpocket) | Required for ensemble pocket characterization | Characterize pockets across an ensemble of atomistic structures. |
+| VMD | [VMD](https://www.ks.uiuc.edu/Research/vmd/) | Optional | Inspect structures and trajectories visually. |
+| Linux/macOS, `bash`, Unix tools | OS package manager | Required | Run build, simulation, filtering, and file-management commands. |
+| CMake, `make`, C++11 compiler, HDF5, Eigen, OpenMP | OS package manager or HPC module stack | Required | Compile and run the Upside executable and shared library. |
+| Python 3.11, `venv`, `pip` | [Python](https://www.python.org/) or OS package manager | Required | Create and manage the repository Python environment. |
+| Python packages | `install_python_env.sh` / `requirements.txt` in this repository | Required for repo workflows | Handle arrays, HDF5 files, PDB preparation, trajectories, tables, plots, clustering, optional REMD reweighting, accelerated array operations, and optional HDX analysis. |
+| Upside setup scripts | `install_python_env.sh`, `install.sh`, `source.sh` in this repository | Required | Create the repo-local `.venv`, compile Upside, set `UPSIDE_HOME`, activate `.venv`, and update `PATH` and `PYTHONPATH`. |
+| SLURM | Cluster module or site scheduler documentation | Optional | Run larger REMD jobs on a cluster. |
 
 ## Environment Setup
 
